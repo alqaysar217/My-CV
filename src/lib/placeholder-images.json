@@ -169,28 +169,34 @@
       "imageHint": "man teaching"
     },
     {
-      "id": "course1",
-      "description": "Thumbnail for Full Stack Web Development course",
-      "imageUrl": "https://images.unsplash.com/photo-1529429612779-c8e40ef2f36d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjb2RlJTIwc2NyZWVufGVufDB8fHx8MTc2NTI4MjI4OHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "code screen"
+      "id": "course_os",
+      "description": "Thumbnail for Ubuntu course",
+      "imageUrl": "https://images.unsplash.com/photo-1629654291842-843b8535561a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx1YnVudHUlMjBvcGVyYXRpbmclMjBzeXN0ZW18ZW58MHx8fHwxNzY1MzgxMjgzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ubuntu operating"
     },
     {
-      "id": "course2",
-      "description": "Thumbnail for Introduction to Python course",
-      "imageUrl": "https://images.unsplash.com/photo-1757529151221-e8c26345ce00?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxweXRob24lMjBsb2dvfGVufDB8fHx8MTc2NTI2NzQyN3ww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "python logo"
+      "id": "course_csharp",
+      "description": "Thumbnail for C# course",
+      "imageUrl": "https://images.unsplash.com/photo-1618423447953-de4549925a1a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjJTIzJTIwY29kZXxlbnwwfHx8fDE3NjUzODEzMTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "csharp code"
     },
     {
-      "id": "course3",
-      "description": "Thumbnail for Data Structures in C++ course",
-      "imageUrl": "https://images.unsplash.com/photo-1644088379091-d574269d422f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhYnN0cmFjdCUyMGRhdGF8ZW58MHx8fHwxNzY1Mjg4Njk1fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract data"
+      "id": "course_winforms",
+      "description": "Thumbnail for Windows Forms course",
+      "imageUrl": "https://images.unsplash.com/photo-1596704922119-585888a78018?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3aW5kb3dzJTIwYXBwbGljYXRpb258ZW58MHx8fHwxNzY1MzgxMzQxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "windows application"
     },
     {
-      "id": "course4",
-      "description": "Thumbnail for SQL for Beginners course",
-      "imageUrl": "https://images.unsplash.com/photo-1632342664765-b067a9e89a44?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxkYXRhYmFzZSUyMGljb258ZW58MHx8fHwxNzY1Mzc2NTQzfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "database icon"
+      "id": "course_web",
+      "description": "Thumbnail for HTML/CSS course",
+      "imageUrl": "https://images.unsplash.com/photo-1621839673705-66174b1c8907?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxIVE1MJTIwY3NzfGVufDB8fHx8MTc2NTM4MTM2N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "html css"
+    },
+    {
+      "id": "course_sql",
+      "description": "Thumbnail for SQL course",
+      "imageUrl": "https://images.unsplash.com/photo-1529441253601-11448e848b30?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxTUUwlMjBkYXRhYmFzZXxlbnwwfHx8fDE3NjUzODEzOTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "SQL database"
     }
   ]
 }

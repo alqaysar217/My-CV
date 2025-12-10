@@ -5,13 +5,29 @@ import { siteData } from "@/lib/data";
 import { useLanguage } from "@/contexts/LanguageContext";
 import SectionTitle from "../SectionTitle";
 import { Button } from "../ui/button";
-import { Youtube } from "lucide-react";
+import { Star, Youtube } from "lucide-react";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import GlowCard from "../GlowCard";
 
 const CourseCard = ({ course, isFeatured }: { course: (typeof siteData.en.courses.list)[0], isFeatured: boolean }) => {
   const courseImage = PlaceHolderImages.find((img) => img.id === course.id);
+  const { language } = useLanguage();
   
+  const renderStars = (rating: number) => {
+    return (
+        <div className="flex items-center">
+        {[...Array(5)].map((_, i) => (
+            <Star
+            key={i}
+            className={`h-5 w-5 ${
+                i < rating ? "text-yellow-400 fill-yellow-400" : "text-muted-foreground"
+            }`}
+            />
+        ))}
+        </div>
+    )
+  }
+
   if (isFeatured) {
       return (
         <GlowCard className="md:col-span-2 lg:col-span-3">
@@ -30,11 +46,12 @@ const CourseCard = ({ course, isFeatured }: { course: (typeof siteData.en.course
                 )}
                 <div>
                     <h3 className="text-2xl md:text-3xl font-bold font-headline text-glow-primary">{course.title}</h3>
+                    {renderStars(course.rating)}
                     <p className="text-muted-foreground mt-4">{course.description}</p>
                     <Button asChild size="lg" className="mt-6 shadow-neon-cyan">
                         <a href={course.link} target="_blank" rel="noopener noreferrer">
                         <Youtube className="me-2 h-5 w-5" />
-                        {siteData.en.courses.cta}
+                        {siteData[language].courses.cta}
                         </a>
                     </Button>
                 </div>
@@ -44,7 +61,7 @@ const CourseCard = ({ course, isFeatured }: { course: (typeof siteData.en.course
   }
 
   return (
-    <GlowCard className="flex flex-col h-full">
+    <GlowCard className="flex flex-col h-full group">
         {courseImage && (
              <div className="overflow-hidden rounded-t-lg">
                 <Image
@@ -59,11 +76,12 @@ const CourseCard = ({ course, isFeatured }: { course: (typeof siteData.en.course
         )}
       <div className="p-4 flex flex-col flex-grow">
         <h3 className="font-bold font-headline text-lg flex-grow">{course.title}</h3>
+        {renderStars(course.rating)}
         <p className="text-sm text-muted-foreground mt-2 flex-grow">{course.description}</p>
         <Button asChild className="w-full mt-4">
           <a href={course.link} target="_blank" rel="noopener noreferrer">
             <Youtube className="me-2 h-4 w-4" />
-            {siteData.en.courses.cta}
+            {siteData[language].courses.cta}
           </a>
         </Button>
       </div>

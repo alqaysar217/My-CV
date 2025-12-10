@@ -162,10 +162,11 @@ export const siteData = {
         title: "YouTube Courses",
         cta: "Watch on YouTube",
         list: [
-            { id: "course1", title: "Full Stack Web Development Masterclass", description: "A comprehensive course covering everything from HTML to advanced backend concepts with Node.js.", link: "#", featured: true },
-            { id: "course2", title: "Introduction to Python", description: "Begin your programming journey with Python.", link: "#", featured: false },
-            { id: "course3", title: "Data Structures in C++", description: "Master fundamental data structures.", link: "#", featured: false },
-            { id: "course4", title: "SQL for Beginners", description: "Learn to manage and query databases.", link: "#", featured: false },
+            { id: "course_os", title: "Operating Systems Course - Ubuntu", description: "Learn the basics of the Ubuntu operating system, how to use the terminal, and manage files.", link: "https://youtube.com/playlist?list=PLBqHNq4xMtKbvnceyc0XIKjCGeeP8PjtV", featured: true, rating: 5 },
+            { id: "course_csharp", title: "C# Programming Fundamentals", description: "Start your programming journey by learning variables, loops, conditions, and functions in C#.", link: "https://youtube.com/playlist?list=PLBqHNq4xMtKaS3omNaEGCos8igXSP3wTK", featured: false, rating: 5 },
+            { id: "course_winforms", title: "Visual Programming Course - Windows Forms", description: "Learn to design professional graphical interfaces and connect them to code using C#.", link: "https://youtube.com/playlist?list=PLBqHNq4xMtKZu1Zfpl7dUTM7OPjWtvERf", featured: false, rating: 4 },
+            { id: "course_web", title: "Intro to Web - HTML + CSS", description: "The basics of building web pages and styling them using HTML and CSS in a simple and clear way.", link: "https://youtube.com/playlist?list=PLBqHNq4xMtKaMSF0YMx7xCzc2Eu79IDiv", featured: false, rating: 4 },
+            { id: "course_sql", title: "Intro to Databases - SQL", description: "Learn how to create databases, execute queries, and work with tables.", link: "https://youtube.com/playlist?list=PLBqHNq4xMtKYorFE5tCByMEPYs4odgN5n", featured: false, rating: 5 },
         ]
     },
     contact: {
@@ -366,10 +367,11 @@ export const siteData = {
         title: "دورات يوتيوب",
         cta: "شاهد على يوتيوب",
         list: [
-            { id: "course1", title: "ماستركلاس تطوير الويب المتكامل", description: "دورة شاملة تغطي كل شيء من HTML إلى مفاهيم الواجهة الخلفية المتقدمة مع Node.js.", link: "#", featured: true },
-            { id: "course2", title: "مقدمة في بايثون", description: "ابدأ رحلتك البرمجية مع بايثون.", link: "#", featured: false },
-            { id: "course3", title: "هياكل البيانات في C++", description: "أتقن هياكل البيانات الأساسية.", link: "#", featured: false },
-            { id: "course4", title: "SQL للمبتدئين", description: "تعلم إدارة واستعلام قواعد البيانات.", link: "#", featured: false },
+            { id: "course_os", title: "كورس نظم تشغيل – أوبونتو", description: "تعلم أساسيات نظام تشغيل أوبونتو وكيفية التعامل مع الطرفية وإدارة الملفات.", link: "https://youtube.com/playlist?list=PLBqHNq4xMtKbvnceyc0XIKjCGeeP8PjtV", featured: true, rating: 5 },
+            { id: "course_csharp", title: "أساسيات البرمجة بلغة C#", description: "ابدأ رحلتك في البرمجة بتعلم المتغيرات، الحلقات، الشروط، والدوال بلغة #C.", link: "https://youtube.com/playlist?list=PLBqHNq4xMtKaS3omNaEGCos8igXSP3wTK", featured: false, rating: 5 },
+            { id: "course_winforms", title: "كورس البرمجة المرئية – Windows Forms", description: "تعلم تصميم واجهات رسومية احترافية وربطها بالكود باستخدام C#.", link: "https://youtube.com/playlist?list=PLBqHNq4xMtKZu1Zfpl7dUTM7OPjWtvERf", featured: false, rating: 4 },
+            { id: "course_web", title: "مقدمة في الويب – HTML + CSS", description: "أساسيات بناء صفحات الويب والتصميم باستخدام HTML و CSS بطريقة بسيطة وواضحة.", link: "https://youtube.com/playlist?list=PLBqHNq4xMtKaMSF0YMx7xCzc2Eu79IDiv", featured: false, rating: 4 },
+            { id: "course_sql", title: "مقدمة قواعد البيانات – SQL", description: "تعلم كيفية إنشاء قواعد البيانات، تنفيذ الاستعلامات، والتعامل مع الجداول.", link: "https://youtube.com/playlist?list=PLBqHNq4xMtKYorFE5tCByMEPYs4odgN5n", featured: false, rating: 5 },
         ]
     },
     contact: {
