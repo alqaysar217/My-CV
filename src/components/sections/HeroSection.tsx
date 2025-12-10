@@ -56,14 +56,14 @@ const HeroSection = () => {
           {data.caption}
         </p>
         <div className="flex flex-col sm:flex-row gap-4 mb-6 md:mb-8">
-          <Button size="lg" className="shadow-neon-cyan hover:shadow-neon-cyan/70 transition-shadow text-base sm:text-lg px-6 py-4 sm:px-8 sm:py-6" onClick={() => window.open('/Mahmoud-Omar-CV.pdf', '_blank')}>
+          <Button size="lg" className="shadow-neon-cyan hover:shadow-neon-cyan/70 transition-shadow text-base px-6 py-3 sm:px-8 sm:py-4" onClick={() => window.open('/Mahmoud-Omar-CV.pdf', '_blank')}>
             <Download className="me-2 h-5 w-5" />
             {data.cta.cv}
           </Button>
           <Button 
             size="lg" 
             variant="outline" 
-            className="border-purple-500/50 text-purple-400 hover:bg-purple-500/10 hover:text-purple-300 hover:border-purple-500 shadow-lg shadow-purple-500/10 hover:shadow-purple-500/20 transition-all text-base sm:text-lg px-6 py-4 sm:px-8 sm:py-6"
+            className="border-purple-500/50 text-purple-400 hover:bg-purple-500/10 hover:text-purple-300 hover:border-purple-500 shadow-lg shadow-purple-500/10 hover:shadow-purple-500/20 transition-all text-base px-6 py-3 sm:px-8 sm:py-4"
             onClick={handleWhatsAppClick}
           >
             <WhatsAppIcon />
@@ -77,7 +77,7 @@ const HeroSection = () => {
               variant="ghost"
               size="icon"
               asChild
-              className="h-12 w-12 text-muted-foreground hover:text-accent hover:bg-accent/10 transition-colors duration-300 [&>svg]:h-6 [&>svg]:w-6 sm:h-14 sm:w-14 sm:[&>svg]:h-7 sm:[&>svg]:w-7"
+              className="h-12 w-12 text-muted-foreground hover:text-accent hover:bg-accent/10 transition-colors duration-300 [&>svg]:h-6 [&>svg]:w-6"
             >
               <Link
                 href={social.url}
