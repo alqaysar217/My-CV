@@ -44,12 +44,12 @@ const CertificatesSection = () => {
   const categories = [allCategoryName, ...uniqueCategories];
   
   const arabicCategories = {
-    "AI & Machine Learning": "الذكاء الاصطناعي وتعلم الآلة",
-    "Programming & Web Development": "البرمجة وتطوير الويب",
-    "Cybersecurity & Networking": "الأمن السيبراني والشبكات",
-    "System Administration & Office Tools": "إدارة النظم وأدوات المكتب",
-    "Business, Analytics & Digital Skills": "الأعمال والتحليلات والمهارات الرقمية",
-    "Other Skills & Personal Development": "مهارات أخرى وتطوير ذاتي"
+    "AI & ML": "الذكاء الاصطناعي",
+    "Web Dev": "تطوير الويب",
+    "Cybersecurity": "الأمن السيبراني",
+    "System & Office": "النظم والمكتب",
+    "Business & Digital": "الأعمال والرقميات",
+    "Personal Dev": "تطوير ذاتي"
   } as { [key: string]: string };
 
   const getCategoryName = (category: string) => {
