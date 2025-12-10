@@ -10,6 +10,7 @@ import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { Badge } from "@/components/ui/badge";
 import { BrainCircuit, Figma, FileText, Code } from "lucide-react";
 import FloatingShapes from "../3d/FloatingShapes";
+import { useEffect, useState } from "react";
 
 // Map of technology names to their SVG icons.
 const techIconMap: { [key: string]: React.ReactNode } = {
@@ -97,13 +98,14 @@ const TechBadge = ({ name }: { name: string }) => {
 
 const ProjectCard = ({ project }: { project: (typeof siteData.en.projects.list)[0] }) => {
   const projectImage = PlaceHolderImages.find((img) => img.id === project.id);
+  const { language } = useLanguage();
 
   return (
     <div className="group relative rounded-lg overflow-hidden border border-primary/20 bg-card/50 backdrop-blur-sm transition-all duration-300 hover:border-accent hover:shadow-neon-cyan hover:-translate-y-2">
       {projectImage && (
         <Image
           src={projectImage.imageUrl}
-          alt={project.title}
+          alt={language === 'ar' ? project.title_ar : project.title}
           width={600}
           height={400}
           className="w-full object-cover transition-transform duration-300 group-hover:scale-105"
@@ -113,8 +115,8 @@ const ProjectCard = ({ project }: { project: (typeof siteData.en.projects.list)[
       <div className="p-6">
         <div className="flex justify-between items-start">
           <div>
-            <h3 className="text-xl font-bold font-headline">{project.title}</h3>
-            <p className="text-muted-foreground mt-2 min-h-[60px] text-sm">{project.description}</p>
+            <h3 className="text-xl font-bold font-headline">{language === 'ar' ? project.title_ar : project.title}</h3>
+            <p className="text-muted-foreground mt-2 min-h-[60px] text-sm">{language === 'ar' ? project.description_ar : project.description}</p>
           </div>
           <Button variant="outline" size="icon" asChild className="border-accent/50 text-accent hover:bg-accent/10 hover:text-accent w-10 h-10 flex-shrink-0 ml-4">
             <a href={project.link} target="_blank" rel="noopener noreferrer" aria-label={`Live Demo of ${project.title}`}>
@@ -134,6 +136,20 @@ const ProjectCard = ({ project }: { project: (typeof siteData.en.projects.list)[
 
 const ProjectsSection = () => {
   const { language, direction } = useLanguage();
+  const [isMounted, setIsMounted] = useState(false);
+  
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
+  if (!isMounted) {
+    return (
+        <section id="projects" className="relative w-full py-20 md:py-32 bg-card/40 overflow-hidden">
+            <FloatingShapes />
+        </section>
+    );
+  }
+  
   const data = siteData[language].projects;
 
   return (
