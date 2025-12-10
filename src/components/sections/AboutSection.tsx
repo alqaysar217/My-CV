@@ -1,0 +1,76 @@
+"use client";
+
+import Image from "next/image";
+import { siteData } from "@/lib/data";
+import { useLanguage } from "@/contexts/LanguageContext";
+import SectionTitle from "../SectionTitle";
+import GlowCard from "../GlowCard";
+import { Button } from "../ui/button";
+import { Download, MessageCircle } from "lucide-react";
+import { PlaceHolderImages } from "@/lib/placeholder-images";
+import { GraduationCap, Code, Briefcase } from "lucide-react";
+
+const icons = {
+  grad: <GraduationCap className="h-8 w-8 text-accent" />,
+  dev: <Code className="h-8 w-8 text-accent" />,
+  instructor: <Briefcase className="h-8 w-8 text-accent" />,
+};
+
+const AboutSection = () => {
+  const { language, direction } = useLanguage();
+  const data = siteData[language].about;
+  const cta = siteData[language].hero.cta;
+  const profileImage = PlaceHolderImages.find((img) => img.id === "profile");
+
+  return (
+    <section id="about" className="container mx-auto py-20 md:py-32 px-4">
+      <SectionTitle>{data.title}</SectionTitle>
+      <GlowCard>
+        <div className="grid md:grid-cols-3 gap-8 md:gap-12 items-center">
+          <div className="md:col-span-1 flex justify-center">
+            <div className="relative w-48 h-48 md:w-64 md:h-64">
+              <div className="absolute inset-0 rounded-full bg-primary blur-xl animate-pulse" />
+              <div className="absolute inset-2 rounded-full bg-accent blur-xl animate-pulse animation-delay-400" />
+              {profileImage && (
+                <Image
+                  src={profileImage.imageUrl}
+                  alt={data.imageAlt}
+                  width={256}
+                  height={256}
+                  className="relative rounded-full object-cover w-full h-full border-4 border-card"
+                  data-ai-hint={profileImage.imageHint}
+                />
+              )}
+            </div>
+          </div>
+          <div className="md:col-span-2" dir={direction}>
+            <p className="text-muted-foreground leading-relaxed text-center md:text-left">
+              {data.bio}
+            </p>
+            <div className="mt-8 grid grid-cols-1 sm:grid-cols-3 gap-6 text-center">
+              {data.roles.map((role) => (
+                <div key={role.title} className="flex flex-col items-center gap-2">
+                  {icons[role.icon as keyof typeof icons]}
+                  <h3 className="font-semibold">{role.title}</h3>
+                  <p className="text-sm text-muted-foreground">{role.desc}</p>
+                </div>
+              ))}
+            </div>
+            <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+              <Button size="lg" className="shadow-neon-cyan hover:shadow-neon-cyan/70 transition-shadow">
+                <Download className="me-2 h-5 w-5" />
+                {cta.cv}
+              </Button>
+              <Button size="lg" variant="outline" className="border-purple-500/50 text-purple-400 hover:bg-purple-500/10 hover:text-purple-300 hover:border-purple-500 shadow-lg shadow-purple-500/10 hover:shadow-purple-500/20 transition-all">
+                <MessageCircle className="me-2 h-5 w-5" />
+                {cta.whatsapp}
+              </Button>
+            </div>
+          </div>
+        </div>
+      </GlowCard>
+    </section>
+  );
+};
+
+export default AboutSection;

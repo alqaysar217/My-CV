@@ -1,3 +1,148 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "profile",
+      "description": "Profile picture of Mahmoud Hassani",
+      "imageUrl": "https://images.unsplash.com/photo-1594672830234-ba4cfe1202dc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bWFuJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzY1Mjg4OTY2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man portrait"
+    },
+    {
+      "id": "project1",
+      "description": "Screenshot of Aduai project",
+      "imageUrl": "https://images.unsplash.com/photo-1601972602237-8c79241e468b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxtb2JpbGUlMjBhcHB8ZW58MHx8fHwxNzY1MzMzODgzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mobile app"
+    },
+    {
+      "id": "project2",
+      "description": "Screenshot of Nabd Jawhar project",
+      "imageUrl": "https://images.unsplash.com/photo-1748609278627-4b0e483b9b70?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx3ZWJzaXRlJTIwZGFzaGJvYXJkfGVufDB8fHx8MTc2NTMwMjk5OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "website dashboard"
+    },
+    {
+      "id": "project3",
+      "description": "Screenshot of Abaad Institute project",
+      "imageUrl": "https://images.unsplash.com/photo-1762329386486-f38ef2077a06?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZWR1Y2F0aW9uJTIwd2Vic2l0ZXxlbnwwfHx8fDE3NjUzNzY1NDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "education website"
+    },
+    {
+      "id": "project4",
+      "description": "Screenshot of Saqia Charity project",
+      "imageUrl": "https://images.unsplash.com/photo-1678656447432-3bbe4eb4eceb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjaGFyaXR5JTIwd2Vic2l0ZXxlbnwwfHx8fDE3NjUzNzM4MzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "charity website"
+    },
+    {
+      "id": "project5",
+      "description": "Screenshot of Organization Developer project",
+      "imageUrl": "https://images.unsplash.com/photo-1658953229625-aad99d7603b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzYWFzJTIwaW50ZXJmYWNlfGVufDB8fHx8MTc2NTM0ODgyMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "saas interface"
+    },
+    {
+      "id": "project6",
+      "description": "Screenshot of Everest project",
+      "imageUrl": "https://images.unsplash.com/photo-1531403009284-440f080d1e12?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxwcm9qZWN0JTIwbWFuYWdlbWVudHxlbnwwfHx8fDE3NjUzMzIzMzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "project management"
+    },
+    {
+      "id": "cert1",
+      "description": "Certificate for Advanced React",
+      "imageUrl": "https://images.unsplash.com/photo-1559588501-59a118c47e59?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NTM3NjU0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "certificate document"
+    },
+    {
+      "id": "cert2",
+      "description": "Certificate for Python for Data Science",
+      "imageUrl": "https://images.unsplash.com/photo-1503252947848-7338d3f92f31?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NTM3NjU0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "certificate document"
+    },
+    {
+      "id": "cert3",
+      "description": "Certificate for UI/UX Design Fundamentals",
+      "imageUrl": "https://images.unsplash.com/photo-1589330694653-ded6df03f754?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NTM3NjU0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "certificate document"
+    },
+    {
+      "id": "cert4",
+      "description": "Certificate for Node.js Professional",
+      "imageUrl": "https://images.unsplash.com/photo-1761671613933-159512988cb3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NTM3NjU0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "certificate document"
+    },
+    {
+      "id": "cert5",
+      "description": "Certificate for Advanced C#",
+      "imageUrl": "https://images.unsplash.com/photo-1616861771635-49063a4636ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NTM3NjU0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "certificate document"
+    },
+    {
+      "id": "book1",
+      "description": "Cover for The Art of C++ book",
+      "imageUrl": "https://images.unsplash.com/photo-1528459105426-b9548367069b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxib29rJTIwY292ZXJ8ZW58MHx8fHwxNzY1MzMwODk3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "book cover"
+    },
+    {
+      "id": "book2",
+      "description": "Cover for Pythonic Code book",
+      "imageUrl": "https://images.unsplash.com/photo-1633477189729-9290b3261d0a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxib29rJTIwY292ZXJ8ZW58MHx8fHwxNzY1MzMwODk3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "book cover"
+    },
+    {
+      "id": "gallery1",
+      "description": "Photo from a training session",
+      "imageUrl": "https://images.unsplash.com/photo-1733222765056-b0790217baa9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx3b3Jrc2hvcCUyMHByZXNlbnRhdGlvbnxlbnwwfHx8fDE3NjUyOTk5OTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "workshop presentation"
+    },
+    {
+      "id": "gallery2",
+      "description": "Photo from a training session",
+      "imageUrl": "https://images.unsplash.com/photo-1525451350286-a21d5aef139c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxwZW9wbGUlMjBsZWFybmluZ3xlbnwwfHx8fDE3NjUyNjQ3NjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "people learning"
+    },
+    {
+      "id": "gallery3",
+      "description": "Photo from a training session",
+      "imageUrl": "https://images.unsplash.com/photo-1580893207371-9ae163385856?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb2RpbmclMjB3b3Jrc2hvcHxlbnwwfHx8fDE3NjUyNzYzNDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "coding workshop"
+    },
+    {
+      "id": "gallery4",
+      "description": "Photo from a training session",
+      "imageUrl": "https://images.unsplash.com/photo-1762968269894-1d7e1ce8894e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzcGVha2VyJTIwc3RhZ2V8ZW58MHx8fHwxNzY1Mzc2NTQyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "speaker stage"
+    },
+    {
+      "id": "gallery5",
+      "description": "Photo from a training session",
+      "imageUrl": "https://images.unsplash.com/photo-1515187029135-18ee286d815b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxncm91cCUyMGRpc2N1c3Npb258ZW58MHx8fHwxNzY1MzAwNzk2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "group discussion"
+    },
+    {
+      "id": "gallery6",
+      "description": "Photo from a training session",
+      "imageUrl": "https://images.unsplash.com/photo-1753164726967-fa2c13494fc4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYW4lMjB0ZWFjaGluZ3xlbnwwfHx8fDE3NjUzMzcxMTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man teaching"
+    },
+    {
+      "id": "course1",
+      "description": "Thumbnail for Full Stack Web Development course",
+      "imageUrl": "https://images.unsplash.com/photo-1529429612779-c8e40ef2f36d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjb2RlJTIwc2NyZWVufGVufDB8fHx8MTc2NTI4MjI4OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "code screen"
+    },
+    {
+      "id": "course2",
+      "description": "Thumbnail for Introduction to Python course",
+      "imageUrl": "https://images.unsplash.com/photo-1757529151221-e8c26345ce00?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxweXRob24lMjBsb2dvfGVufDB8fHx8MTc2NTI2NzQyN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "python logo"
+    },
+    {
+      "id": "course3",
+      "description": "Thumbnail for Data Structures in C++ course",
+      "imageUrl": "https://images.unsplash.com/photo-1644088379091-d574269d422f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhYnN0cmFjdCUyMGRhdGF8ZW58MHx8fHwxNzY1Mjg4Njk1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract data"
+    },
+    {
+      "id": "course4",
+      "description": "Thumbnail for SQL for Beginners course",
+      "imageUrl": "https://images.unsplash.com/photo-1632342664765-b067a9e89a44?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxkYXRhYmFzZSUyMGljb258ZW58MHx8fHwxNzY1Mzc2NTQzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "database icon"
+    }
+  ]
 }
