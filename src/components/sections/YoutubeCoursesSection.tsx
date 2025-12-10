@@ -20,7 +20,7 @@ const CourseCard = ({ course }: { course: (typeof siteData.en.courses.list)[0] }
             <Star
             key={i}
             className={`h-5 w-5 ${
-                i < rating ? "text-yellow-400 fill-yellow-400" : "text-muted-foreground"
+                i < Math.floor(rating) ? "text-yellow-400 fill-yellow-400" : "text-muted-foreground"
             }`}
             />
         ))}
@@ -62,7 +62,7 @@ const YoutubeCoursesSection = () => {
   const { language, direction } = useLanguage();
   const data = siteData[language].courses;
   const channelData = data.channel;
-  const channelImage = PlaceHolderImages.find((img) => img.id === "course_os");
+  const channelImage = PlaceHolderImages.find((img) => img.id === "channel_main");
 
 
   return (

@@ -215,6 +215,12 @@
       "description": "Thumbnail for miscellaneous tutorials",
       "imageUrl": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0ZWNoJTIwdHV0b3JpYWx8ZW58MHx8fHwxNzY1MzkxMzU2fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "tech tutorial"
+    },
+    {
+      "id": "channel_main",
+      "description": "Main image for the YouTube channel section",
+      "imageUrl": "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxZb3VUdWJlJTIwbG9nb3xlbnwwfHx8fDE3NjU0NjUzNTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "YouTube logo"
     }
   ]
 }
