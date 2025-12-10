@@ -102,6 +102,11 @@
       0 0 4px hsl(var(--primary)),
       0 0 8px hsl(var(--primary));
   }
+  .text-glow-purple {
+    text-shadow:
+      0 0 5px #a855f7,
+      0 0 10px #a855f7;
+  }
 
   .h-screen-dynamic {
     height: 100vh; /* Fallback for browsers that do not support dvh */
