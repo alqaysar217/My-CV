@@ -44,7 +44,7 @@ const HeroSection = () => {
             </div>
         </div>
 
-        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black tracking-tighter mb-2 font-headline text-glow">
+        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black tracking-tighter mb-2 font-headline text-glow bg-clip-text text-transparent bg-gradient-to-b from-primary to-accent">
           {data.name}
         </h1>
         <p className="text-lg md:text-xl text-primary font-medium mb-4">
