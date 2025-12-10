@@ -1,4 +1,17 @@
 import type {Config} from 'tailwindcss';
+import plugin from 'tailwindcss/plugin';
+
+const rotateY = plugin(function ({ addUtilities }) {
+  addUtilities({
+    '.rotate-y-15': {
+      transform: 'rotateY(15deg)',
+    },
+    '.rotate-y-0': {
+        transform: 'rotateY(0deg)',
+    }
+  })
+})
+
 
 export default {
   darkMode: ['class'],
@@ -101,5 +114,5 @@ export default {
       },
     },
   },
-  plugins: [require('tailwindcss-animate')],
+  plugins: [require('tailwindcss-animate'), rotateY],
 } satisfies Config;

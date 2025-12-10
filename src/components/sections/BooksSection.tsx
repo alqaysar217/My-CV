@@ -24,16 +24,17 @@ const BookCard = ({ book }: { book: (typeof siteData.en.books.list)[0] }) => {
   };
 
   return (
-    <GlowCard className="h-full flex flex-col">
+    <GlowCard className="h-full flex flex-col group">
       <div className="flex flex-col md:flex-row gap-6">
-        <div className="mx-auto md:mx-0">
+        <div className="mx-auto md:mx-0 [perspective:1000px]">
         {bookImage && (
           <Image
             src={bookImage.imageUrl}
             alt={book.title}
             width={150}
             height={225}
-            className="rounded-lg shadow-lg shadow-black/30 object-cover border-2 border-primary/20"
+            className="rounded-lg shadow-lg shadow-black/30 object-cover border-2 border-primary/20 transition-transform duration-500 ease-in-out group-hover:rotate-y-15 group-hover:scale-110"
+            style={{ transformStyle: "preserve-3d" }}
             data-ai-hint={bookImage.imageHint}
           />
         )}
