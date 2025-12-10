@@ -14,8 +14,7 @@ const SectionTitle = ({ children, className }: SectionTitleProps) => {
     <h2
       className={cn(
         "text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl text-center mb-12 md:mb-20 font-headline",
-        "bg-clip-text text-transparent bg-gradient-to-b from-gray-200 to-gray-500",
-        "text-glow-primary",
+        "text-accent",
         className
       )}
       dir={direction}
