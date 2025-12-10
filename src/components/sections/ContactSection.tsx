@@ -54,6 +54,13 @@ const ContactSection = () => {
     form.reset();
   }
 
+  const handleWhatsAppClick = () => {
+    const phone = siteData.en.contact.info.phone.replace(/[\s+]/g, "");
+    const message = encodeURIComponent("Hello Mahmoud, I'm reaching out from your portfolio website.");
+    const whatsappUrl = `https://wa.me/${phone}?text=${message}`;
+    window.open(whatsappUrl, "_blank");
+  };
+
   return (
     <section id="contact" className="container mx-auto py-20 md:py-32 px-4">
       <SectionTitle>{data.title}</SectionTitle>
@@ -141,7 +148,13 @@ const ContactSection = () => {
                 />
                 <div className="flex flex-col sm:flex-row gap-4">
                     <Button type="submit" size="lg" className="flex-1 shadow-neon-cyan">{data.form.submit}</Button>
-                    <Button type="button" size="lg" variant="outline" className="flex-1 border-purple-500/50 text-purple-400 hover:bg-purple-500/10 hover:text-purple-300 hover:border-purple-500">
+                    <Button 
+                        type="button" 
+                        size="lg" 
+                        variant="outline" 
+                        className="flex-1 border-purple-500/50 text-purple-400 hover:bg-purple-500/10 hover:text-purple-300 hover:border-purple-500"
+                        onClick={handleWhatsAppClick}
+                    >
                         <MessageCircle className="me-2 h-5 w-5" />
                         {data.form.whatsapp}
                     </Button>
