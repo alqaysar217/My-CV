@@ -116,16 +116,18 @@ export const siteData = {
         title: "Key Technical Projects",
         linkText: "Live Demo",
         list: [
+            { id: "project_portfolio", title: "Mahmoud Al-Hasani Portfolio", description: "My personal portfolio website showcasing my projects, skills, and experience.", tech: ["Next.js", "TypeScript", "Tailwind CSS"], link: "https://protofilo.mahmoud.vecel.app/" },
+            { id: "project_wethaqq", title: "Wethaqq", description: "A platform for documenting and verifying information, built with a modern tech stack.", tech: ["Next.js", "TypeScript", "Tailwind CSS"], link: "https://protofilo.mahmoud.vecel.app/" },
             { id: "project1", title: "Aduai (Graduation Project)", description: "An integrated educational platform powered by 40+ AI tools for academic research and student assistance.", tech: ["Next.js", "TypeScript", "Firebase", "AI"], link: "https://aduai.vercel.app/" },
-            { id: "project2", title: "Nabd Jawhar", description: "Home healthcare service platform connecting patients with registered nurses for in-home medical care.", tech: ["Next.js", "TypeScript", "PostgreSQL"], link: "https://nabd-jawhar.vercel.app/" },
+            { id: "project2", title: "Nabd Jawhar", description: "Home healthcare service platform connecting patients with registered nurses for in-home medical care.", tech: ["Next.js", "TypeScript", "PostgreSQL", "Zod"], link: "https://nabd-jawhar.vercel.app/" },
             { id: "project3", title: "Abaad Institute Website", description: "Comprehensive platform for course enrollment, trainer profiles, book sales, and institute information.", tech: ["PHP", "MySQL", "Bootstrap"], link: "https://abaad-institute.vercel.app/" },
-            { id: "project4", title: "Saqia Charity", description: "Charitable donation platform for mosques, integrating local payment processors for direct contributions.", tech: ["Laravel", "Vue.js", "Stripe"], link: "https://saqia-charity-app.vercel.app/" },
-            { id: "project5", title: "Organization Developer Batch", description: "Documentation website for the MIS student cohort, featuring student profiles and project showcases.", tech: ["Next.js", "React"], link: "https://od10-mis.vercel.app/" },
-            { id: "project6", title: "Everest Company Site", description: "Corporate website showcasing services, courses, and programs for a media and advertising company.", tech: ["Python", "Django", "React"], link: "https://everest-sigma.vercel.app/" },
+            { id: "project4", title: "Saqia Charity", description: "Charitable donation platform for mosques, integrating local payment processors for direct contributions.", tech: ["React", "Vite", "TypeScript"], link: "https://saqia-charity-app.vercel.app/" },
+            { id: "project5", title: "Organization Developer Batch", description: "Documentation website for the MIS student cohort, featuring student profiles and project showcases.", tech: ["React", "Vite", "TypeScript"], link: "https://od10-mis.vercel.app/" },
+            { id: "project6", title: "Everest Company Site", description: "Corporate website showcasing services, courses, and programs for a media and advertising company.", tech: ["React", "Vite", "TypeScript"], link: "https://everest-sigma.vercel.app/" },
             { id: "project7", title: "Bashaib E-commerce", description: "E-commerce platform designed for selling motorcycles, spare parts, and accessories.", tech: ["HTML", "CSS", "JavaScript"], link: "https://bashaib-ecommerce.vercel.app/" },
-            { id: "project8", title: "Fioncah E-commerce", description: "Online store specializing in women’s accessories, clothing, and perfumes.", tech: ["React", "TypeScript", "Vite"], link: "https://fioncah-ecommerce.vercel.app/" },
-            { id: "project9", title: "Sakina Islamic Site", description: "Integrated Islamic platform featuring Quran recitation, Prophets' stories, Du'as, and religious inquiries.", tech: ["React", "TypeScript"], link: "https://sakina-islam.vercel.app/" },
-            { id: "project10", title: "Omqi Mobile App (UI/UX)", description: "Mobile application UI design focused on enhancing user experience for financial service transactions.", tech: ["Figma", "React", "TypeScript", "Vite"], link: "https://omqi-mobile-app.vercel.app/" },
+            { id: "project8", title: "Fioncah E-commerce", description: "Online store specializing in women’s accessories, clothing, and perfumes.", tech: ["React", "Vite", "TypeScript"], link: "https://fioncah-ecommerce.vercel.app/" },
+            { id: "project9", title: "Sakina Islamic Site", description: "Integrated Islamic platform featuring Quran recitation, Prophets' stories, Du'as, and religious inquiries.", tech: ["React", "TypeScript", "Vite"], link: "https://sakina-islam.vercel.app/" },
+            { id: "project10", title: "Omqi Mobile App (UI/UX)", description: "Mobile application UI design focused on enhancing user experience for financial service transactions.", tech: ["Figma", "React", "Vite"], link: "https://omqi-mobile-app.vercel.app/" },
         ]
     },
     education: {
@@ -146,9 +148,9 @@ export const siteData = {
     certificates: {
         title: "Certificates",
         list: [
-            { id: "cert_ai_1", title: "Elements of AI", provider: "University of Helsinki & MinnaLearn", date: "2023", category: "AI & ML" },
-            { id: "cert_ai_2", title: "AI for Everyone (AI4E)", provider: "Mahara-Tech / ITI", date: "2025", category: "AI & ML" },
-            { id: "cert_ai_3", title: "One Million Prompters Initiative", provider: "Dubai Future Foundation", date: "Not specified", category: "AI & ML" },
+            { id: "cert_ai_1", title: "Elements of AI (2 ECTS credits)", provider: "University of Helsinki & MinnaLearn", date: "2023", category: "AI & ML" },
+            { id: "cert_ai_2", title: "AI for Everyone (AI4E)", provider: "Mahara-Tech / ITI (Ministry of Communications)", date: "2025", category: "AI & ML" },
+            { id: "cert_ai_3", title: "One Million Prompters Initiative (Prompt Engineering)", provider: "Dubai Future Foundation / Dubai Centre for Artificial Intelligence", date: "Not specified", category: "AI & ML" },
             { id: "cert_ai_4", title: "Git up with Git and Github", provider: "Mind Luster", date: "2025", category: "AI & ML" },
             { id: "cert_dev_1", title: "Introduction to C++", provider: "Sololearn", date: "2023", category: "Web Dev" },
             { id: "cert_dev_2", title: "Full HTML in Arabic", provider: "M3aarf Platform", date: "2023", category: "Web Dev" },
@@ -368,16 +370,18 @@ export const siteData = {
         title: "أبرز المشاريع التقنية",
         linkText: "عرض مباشر",
         list: [
+            { id: "project_portfolio", title: "ملف محمود الحسني الشخصي", description: "موقعي الشخصي الذي يعرض مشاريعي ومهاراتي وخبراتي.", tech: ["Next.js", "TypeScript", "Tailwind CSS"], link: "https://protofilo.mahmoud.vecel.app/" },
+            { id: "project_wethaqq", title: "وثّق", description: "منصة لتوثيق والتحقق من المعلومات، تم بناؤها باستخدام تقنيات حديثة.", tech: ["Next.js", "TypeScript", "Tailwind CSS"], link: "https://protofilo.mahmoud.vecel.app/" },
             { id: "project1", title: "أدعية (مشروع تخرج)", description: "منصة تعليمية متكاملة مدعومة بأكثر من 40 أداة ذكاء اصطناعي للبحث الأكاديمي ومساعدة الطلاب.", tech: ["Next.js", "TypeScript", "Firebase", "AI"], link: "https://aduai.vercel.app/" },
-            { id: "project2", title: "نبض جوهر", description: "منصة خدمات رعاية صحية منزلية تربط المرضى بممرضين مسجلين للرعاية الطبية في المنزل.", tech: ["Next.js", "TypeScript", "PostgreSQL"], link: "https://nabd-jawhar.vercel.app/" },
+            { id: "project2", title: "نبض جوهر", description: "منصة خدمات رعاية صحية منزلية تربط المرضى بممرضين مسجلين للرعاية الطبية في المنزل.", tech: ["Next.js", "TypeScript", "PostgreSQL", "Zod"], link: "https://nabd-jawhar.vercel.app/" },
             { id: "project3", title: "موقع معهد أبعاد", description: "منصة شاملة لتسجيل الدورات، ملفات المدربين، مبيعات الكتب، ومعلومات المعهد.", tech: ["PHP", "MySQL", "Bootstrap"], link: "https://abaad-institute.vercel.app/" },
-            { id: "project4", title: "جمعية ساقيا الخيرية", description: "منصة تبرعات خيرية للمساجد، مع دمج معالجات دفع محلية للتبرعات المباشرة.", tech: ["Laravel", "Vue.js", "Stripe"], link: "https://saqia-charity-app.vercel.app/" },
-            { id: "project5", title: "دفعة مطور المنظمات", description: "موقع توثيقي لدفعة طلاب نظم المعلومات الإدارية، يضم ملفات الطلاب وعروض المشاريع.", tech: ["Next.js", "React"], link: "https://od10-mis.vercel.app/" },
-            { id: "project6", title: "موقع شركة إيفرست", description: "موقع إلكتروني يعرض الخدمات والدورات والبرامج لشركة إعلام وإعلان.", tech: ["Python", "Django", "React"], link: "https://everest-sigma.vercel.app/" },
+            { id: "project4", title: "جمعية سقيا الخيرية", description: "منصة تبرعات خيرية للمساجد، مع دمج معالجات دفع محلية للتبرعات المباشرة.", tech: ["React", "Vite", "TypeScript"], link: "https://saqia-charity-app.vercel.app/" },
+            { id: "project5", title: "دفعة مطور المنظمات", description: "موقع توثيقي لدفعة طلاب نظم المعلومات الإدارية، يضم ملفات الطلاب وعروض المشاريع.", tech: ["React", "Vite", "TypeScript"], link: "https://od10-mis.vercel.app/" },
+            { id: "project6", title: "موقع شركة إيفرست", description: "موقع إلكتروني يعرض الخدمات والدورات والبرامج لشركة إعلام وإعلان.", tech: ["React", "Vite", "TypeScript"], link: "https://everest-sigma.vercel.app/" },
             { id: "project7", title: "باشعيب للتجارة الإلكترونية", description: "منصة تجارة إلكترونية مصممة لبيع الدراجات النارية وقطع الغيار والإكسسوارات.", tech: ["HTML", "CSS", "JavaScript"], link: "https://bashaib-ecommerce.vercel.app/" },
-            { id: "project8", title: "فيونكة للتجارة الإلكترونية", description: "متجر إلكتروني متخصص في إكسسوارات النساء والملابس والعطور.", tech: ["React", "TypeScript", "Vite"], link: "https://fioncah-ecommerce.vercel.app/" },
-            { id: "project9", title: "موقع سكينة الإسلامي", description: "منصة إسلامية متكاملة تضم تلاوة القرآن، قصص الأنبياء، أدعية، واستفسارات دينية.", tech: ["React", "TypeScript"], link: "https://sakina-islam.vercel.app/" },
-            { id: "project10", title: "تطبيق الجوال عمقي (UI/UX)", description: "تصميم واجهة مستخدم لتطبيق جوال يركز على تحسين تجربة المستخدم للمعاملات المالية.", tech: ["Figma", "React", "TypeScript", "Vite"], link: "https://omqi-mobile-app.vercel.app/" },
+            { id: "project8", title: "فيونكة للتجارة الإلكترونية", description: "متجر إلكتروني متخصص في إكسسوارات النساء والملابس والعطور.", tech: ["React", "Vite", "TypeScript"], link: "https://fioncah-ecommerce.vercel.app/" },
+            { id: "project9", title: "موقع سكينة الإسلامي", description: "منصة إسلامية متكاملة تضم تلاوة القرآن، قصص الأنبياء، أدعية، واستفسارات دينية.", tech: ["React", "TypeScript", "Vite"], link: "https://sakina-islam.vercel.app/" },
+            { id: "project10", title: "تطبيق الجوال عمقي (UI/UX)", description: "تصميم واجهة مستخدم لتطبيق جوال يركز على تحسين تجربة المستخدم للمعاملات المالية.", tech: ["Figma", "React", "Vite"], link: "https://omqi-mobile-app.vercel.app/" },
         ]
     },
     education: {
@@ -398,9 +402,9 @@ export const siteData = {
     certificates: {
         title: "الشهادات",
         list: [
-            { id: "cert_ai_1", title: "عناصر الذكاء الاصطناعي", provider: "جامعة هلسنكي و MinnaLearn", date: "2023", category: "AI & ML" },
-            { id: "cert_ai_2", title: "الذكاء الاصطناعي للجميع (AI4E)", provider: "مهارة-تك / ITI", date: "2025", category: "AI & ML" },
-            { id: "cert_ai_3", title: "مبادرة مليون مبرمج أوامر", provider: "مؤسسة دبي للمستقبل", date: "غير محدد", category: "AI & ML" },
+            { id: "cert_ai_1", title: "عناصر الذكاء الاصطناعي (2 ECTS)", provider: "جامعة هلسنكي و MinnaLearn", date: "2023", category: "AI & ML" },
+            { id: "cert_ai_2", title: "الذكاء الاصطناعي للجميع", provider: "مهارة-تك / ITI (وزارة الاتصالات)", date: "2025", category: "AI & ML" },
+            { id: "cert_ai_3", title: "مبادرة مليون مبرمج أوامر (هندسة الأوامر)", provider: "مؤسسة دبي للمستقبل / مركز دبي للذكاء الاصطناعي", date: "غير محدد", category: "AI & ML" },
             { id: "cert_ai_4", title: "Git and Github", provider: "Mind Luster", date: "2025", category: "AI & ML" },
             { id: "cert_dev_1", title: "مقدمة في C++", provider: "Sololearn", date: "2023", category: "Web Dev" },
             { id: "cert_dev_2", title: "HTML الكامل باللغة العربية", provider: "منصة معارف", date: "2023", category: "Web Dev" },
@@ -412,8 +416,8 @@ export const siteData = {
             { id: "cert_admin_1", title: "أساسيات مهنة إدارة النظم", provider: "مايكروسوفت و لينكد إن", date: "2023", category: "System & Office" },
             { id: "cert_admin_2", title: "ICDL Base", provider: "إدراك", date: "2025", category: "System & Office" },
             { id: "cert_admin_3", title: "أساسيات الحاسوب (مكون ICDL)", provider: "إدراك", date: "2025", category: "System & Office" },
-            { id_cert_admin_4: "Microsoft Advanced Excel Quiz", provider: "ITronix Solutions", date: "2023", category: "System & Office" },
-            { id: "cert_admin_5", title: "Google Admin Console - المستوى 1", provider: "appsevents", date: "غير محدد", category: "System & Office" },
+            { id: "cert_admin_4", title: "اختبار Excel المتقدم من مايكروسوفت", provider: "ITronix Solutions", date: "2023", category: "System & Office" },
+            { id: "cert_admin_5", title: "وحدة تحكم المشرف في Google - المستوى 1", provider: "appsevents", date: "غير محدد", category: "System & Office" },
             { id: "cert_admin_6", title: "مقدمة في جوجل درايف (المستوى 1)", provider: "appsevents", date: "2023", category: "System & Office" },
             { id: "cert_admin_7", title: "مقدمة في مواقع جوجل (المستوى 1)", provider: "appsevents", date: "غير محدد", category: "System & Office" },
             { id: "cert_admin_8", title: "مهارات PowerPoint 2013", provider: "Nadrus.com", date: "2023", category: "System & Office" },
@@ -428,7 +432,7 @@ export const siteData = {
             { id: "cert_other_1", title: "المدن الذكية", provider: "الجامعة المفتوحة", date: "2023", category: "Personal Dev" },
             { id: "cert_other_2", title: "مواقع الويب الفعالة", provider: "HP LIFE / HP Foundation", date: "2023", category: "Personal Dev" },
             { id: "cert_other_3", title: "التخطيط الاستراتيجي", provider: "سديم", date: "2023", category: "Personal Dev" },
-            { id: "cert_other_4", title: "أدوبي فوتوشوب", provider: "Twa Courses", date: "2023", category: "Personal Dev" },
+            { id: "cert_other_4", "title": "أدوبي فوتوشوب", provider: "Twa Courses", date: "2023", category: "Personal Dev" },
             { id: "cert_other_5", title: "التحكم في التوتر", provider: "معهد سياتل الدولي للتدريب", date: "2023", category: "Personal Dev" },
             { id: "cert_other_6", title: "جمع البيانات الميدانية وتتبع جهات الاتصال", provider: "منظمة الصحة العالمية", date: "2023", category: "Personal Dev" },
         ]
@@ -511,4 +515,5 @@ export const siteData = {
     
 
     
+
 

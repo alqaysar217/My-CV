@@ -7,6 +7,18 @@
       "imageHint": "man portrait"
     },
     {
+      "id": "project_portfolio",
+      "description": "Screenshot of Mahmoud Al-Hasani Portfolio project",
+      "imageUrl": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwb3J0Zm9saW8lMjB3ZWJzaXRlfGVufDB8fHx8MTc2NTU2MTMwNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "portfolio website"
+    },
+    {
+      "id": "project_wethaqq",
+      "description": "Screenshot of Wethaqq project",
+      "imageUrl": "https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkb2N1bWVudCUyMHZlcmlmaWNhdGlvbnxlbnwwfHx8fDE3NjU1NjEzNDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "document verification"
+    },
+    {
       "id": "project1",
       "description": "Screenshot of Aduai project",
       "imageUrl": "https://images.unsplash.com/photo-1712213193498-f14d84a72e81?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlJTIwZWR1Y2F0aW9ufGVufDB8fHx8MTc2NTU1ODk4M3ww&ixlib=rb-4.1.0&q=80&w=1080",
