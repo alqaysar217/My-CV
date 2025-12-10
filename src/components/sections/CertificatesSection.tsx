@@ -9,6 +9,7 @@ import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import FloatingShapes from "../3d/FloatingShapes";
+import { useState, useEffect } from "react";
 
 const CertificateCard = ({ cert }: { cert: (typeof siteData.en.certificates.list)[0] }) => {
     const certImage = PlaceHolderImages.find((img) => img.id === cert.id);
@@ -39,17 +40,22 @@ const CertificateCard = ({ cert }: { cert: (typeof siteData.en.certificates.list
 const CertificatesSection = () => {
   const { language, direction } = useLanguage();
   const data = siteData[language].certificates;
+  const [isMounted, setIsMounted] = useState(false);
+
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
 
   const allCategoryName = language === 'ar' ? 'الكل' : 'All';
   const uniqueCategories = Array.from(new Set(data.list.map((cert) => cert.category)));
   const categories = [allCategoryName, ...uniqueCategories];
   
   const arabicCategories = {
-    "AI & ML": "الذكاء الاصطناعي",
-    "Web Dev": "تطوير الويب",
-    "Cybersecurity": "الأمن السيبراني",
-    "System & Office": "النظم والمكتب",
-    "Business & Digital": "الأعمال والرقميات",
+    "Web Dev": "تطوير ويب",
+    "AI & ML": "ذ. اصطناعي وتعلم آلة",
+    "Cybersecurity": "أمن سيبراني وشبكات",
+    "System & Office": "أنظمة ومكتب",
+    "Business & Digital": "أعمال ورقميات",
     "Personal Dev": "تطوير ذاتي"
   } as { [key: string]: string };
 
@@ -59,6 +65,15 @@ const CertificatesSection = () => {
       return arabicCategories[category] || category;
     }
     return category;
+  }
+
+  if (!isMounted) {
+    return (
+        <section id="certificates" className="relative container mx-auto py-20 md:py-32 px-4 overflow-hidden">
+             <FloatingShapes />
+             <SectionTitle>{data.title}</SectionTitle>
+        </section>
+    );
   }
 
   return (
