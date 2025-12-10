@@ -64,7 +64,7 @@ const HeroSection = () => {
               variant="ghost"
               size="icon"
               asChild
-              className="h-14 w-14 text-muted-foreground hover:text-accent hover:bg-accent/10 transition-colors duration-300 [&>a>svg]:h-7 [&>a>svg]:w-7"
+              className="h-16 w-16 text-muted-foreground hover:text-accent hover:bg-accent/10 transition-colors duration-300 [&>a>svg]:h-8 [&>a>svg]:w-8"
             >
               <Link
                 href={social.url}
