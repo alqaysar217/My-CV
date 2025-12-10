@@ -1,3 +1,4 @@
+
 export const siteData = {
   en: {
     nav: [
@@ -102,11 +103,19 @@ export const siteData = {
     certificates: {
         title: "Certificates",
         list: [
-            { id: "cert1", title: "Advanced React", provider: "Coursera", date: "2023", category: "Web" },
-            { id: "cert2", title: "Python for Data Science", provider: "edX", date: "2023", category: "Programming" },
-            { id: "cert3", title: "UI/UX Design Fundamentals", provider: "Udemy", date: "2022", category: "Design" },
-            { id: "cert4", title: "Node.js Professional", provider: "Vivasoft", date: "2024", category: "Web" },
-            { id: "cert5", title: "Advanced C#", provider: "Pluralsight", date: "2023", category: "Programming" },
+            { id: "cert_ai1", title: "Elements of AI", provider: "Univ. of Helsinki", date: "2023", category: "AI & Data" },
+            { id: "cert_ai2", title: "AI for Everyone", provider: "ITI", date: "2023", category: "AI & Data" },
+            { id: "cert_ai3", title: "Prompt Engineering", provider: "Dubai Future Foundation", date: "2023", category: "AI & Data" },
+            { id: "cert_ai4", title: "Business Analytics with Excel", provider: "Simplilearn", date: "2022", category: "AI & Data" },
+            { id: "cert_cyber1", title: "Career Essentials in System Administration", provider: "Microsoft", date: "2024", category: "Cybersecurity & IT" },
+            { id: "cert_cyber2", title: "Malware Analysis Fundamentals", provider: "Online", date: "2023", category: "Cybersecurity & IT" },
+            { id: "cert_cyber3", title: "Intro to Networks", provider: "Edraak", date: "2022", category: "Cybersecurity & IT" },
+            { id: "cert_dev1", title: "Git & GitHub", provider: "Mind Luster", date: "2024", category: "Development" },
+            { id: "cert_dev2", title: "Intro to C++", provider: "Sololearn", date: "2021", category: "Development" },
+            { id: "cert_dev3", title: "Full HTML for Beginners", provider: "Online", date: "2021", category: "Development" },
+            { id: "cert_biz1", title: "Fundamentals of Digital Marketing", provider: "Google", date: "2023", category: "Business & Marketing" },
+            { id: "cert_biz2", title: "Strategic Planning", provider: "Sadeem", date: "2022", category: "Business & Marketing" },
+            { id: "cert_biz3", title: "Business Model Canvas", provider: "Rwaq", date: "2022", category: "Business & Marketing" },
         ]
     },
     books: {
@@ -273,11 +282,19 @@ export const siteData = {
     certificates: {
         title: "الشهادات",
         list: [
-            { id: "cert1", title: "React المتقدم", provider: "Coursera", date: "2023", category: "الويب" },
-            { id: "cert2", title: "Python لعلم البيانات", provider: "edX", date: "2023", category: "البرمجة" },
-            { id: "cert3", title: "أساسيات تصميم UI/UX", provider: "Udemy", date: "2022", category: "التصميم" },
-            { id: "cert4", title: "Node.js للمحترفين", provider: "Vivasoft", date: "2024", category: "الويب" },
-            { id: "cert5", title: "C# المتقدم", provider: "Pluralsight", date: "2023", category: "البرمجة" },
+            { id: "cert_ai1", title: "عناصر الذكاء الاصطناعي", provider: "جامعة هلسنكي", date: "2023", category: "الذكاء الاصطناعي والبيانات" },
+            { id: "cert_ai2", title: "الذكاء الاصطناعي للجميع", provider: "ITI", date: "2023", category: "الذكاء الاصطناعي والبيانات" },
+            { id: "cert_ai3", title: "هندسة الأوامر", provider: "مؤسسة دبي للمستقبل", date: "2023", category: "الذكاء الاصطناعي والبيانات" },
+            { id: "cert_ai4", title: "تحليل الأعمال باستخدام Excel", provider: "Simplilearn", date: "2022", category: "الذكاء الاصطناعي والبيانات" },
+            { id: "cert_cyber1", title: "أساسيات مهنة إدارة النظم", provider: "Microsoft", date: "2024", category: "الأمن السيبراني وتقنية المعلومات" },
+            { id: "cert_cyber2", title: "أساسيات تحليل البرمجيات الخبيثة", provider: "عبر الإنترنت", date: "2023", category: "الأمن السيبراني وتقنية المعلومات" },
+            { id: "cert_cyber3", title: "مقدمة في الشبكات", provider: "إدراك", date: "2022", category: "الأمن السيبراني وتقنية المعلومات" },
+            { id: "cert_dev1", title: "Git & GitHub", provider: "Mind Luster", date: "2024", category: "التطوير" },
+            { id: "cert_dev2", title: "مقدمة في C++", provider: "Sololearn", date: "2021", category: "التطوير" },
+            { id: "cert_dev3", title: "HTML الكامل للمبتدئين", provider: "عبر الإنترنت", date: "2021", category: "التطوير" },
+            { id: "cert_biz1", title: "أساسيات التسويق الرقمي", provider: "Google", date: "2023", category: "الأعمال والتسويق" },
+            { id: "cert_biz2", title: "التخطيط الاستراتيجي", provider: "سديم", date: "2022", category: "الأعمال والتسويق" },
+            { id: "cert_biz3", title: "نموذج العمل التجاري", provider: "رواق", date: "2022", category: "الأعمال والتسويق" },
         ]
     },
     books: {

@@ -43,33 +43,81 @@
       "imageHint": "project management"
     },
     {
-      "id": "cert1",
-      "description": "Certificate for Advanced React",
+      "id": "cert_ai1",
+      "description": "Certificate for Elements of AI",
       "imageUrl": "https://images.unsplash.com/photo-1559588501-59a118c47e59?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NTM3NjU0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "certificate document"
     },
     {
-      "id": "cert2",
-      "description": "Certificate for Python for Data Science",
+      "id": "cert_ai2",
+      "description": "Certificate for AI for Everyone",
       "imageUrl": "https://images.unsplash.com/photo-1503252947848-7338d3f92f31?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NTM3NjU0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "certificate document"
     },
     {
-      "id": "cert3",
-      "description": "Certificate for UI/UX Design Fundamentals",
+      "id": "cert_ai3",
+      "description": "Certificate for Prompt Engineering",
       "imageUrl": "https://images.unsplash.com/photo-1589330694653-ded6df03f754?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NTM3NjU0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "certificate document"
     },
     {
-      "id": "cert4",
-      "description": "Certificate for Node.js Professional",
+      "id": "cert_ai4",
+      "description": "Certificate for Business Analytics with Excel",
       "imageUrl": "https://images.unsplash.com/photo-1761671613933-159512988cb3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NTM3NjU0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "certificate document"
     },
     {
-      "id": "cert5",
-      "description": "Certificate for Advanced C#",
+      "id": "cert_cyber1",
+      "description": "Certificate for Career Essentials in System Administration",
       "imageUrl": "https://images.unsplash.com/photo-1616861771635-49063a4636ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NTM3NjU0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "certificate document"
+    },
+    {
+      "id": "cert_cyber2",
+      "description": "Certificate for Malware Analysis Fundamentals",
+      "imageUrl": "https://images.unsplash.com/photo-1559588501-59a118c47e59?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NTM3NjU0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "certificate document"
+    },
+    {
+      "id": "cert_cyber3",
+      "description": "Certificate for Intro to Networks",
+      "imageUrl": "https://images.unsplash.com/photo-1503252947848-7338d3f92f31?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NTM3NjU0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "certificate document"
+    },
+    {
+      "id": "cert_dev1",
+      "description": "Certificate for Git & GitHub",
+      "imageUrl": "https://images.unsplash.com/photo-1589330694653-ded6df03f754?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NTM3NjU0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "certificate document"
+    },
+    {
+      "id": "cert_dev2",
+      "description": "Certificate for Intro to C++",
+      "imageUrl": "https://images.unsplash.com/photo-1761671613933-159512988cb3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NTM3NjU0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "certificate document"
+    },
+    {
+      "id": "cert_dev3",
+      "description": "Certificate for Full HTML for Beginners",
+      "imageUrl": "https://images.unsplash.com/photo-1616861771635-49063a4636ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NTM3NjU0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "certificate document"
+    },
+    {
+      "id": "cert_biz1",
+      "description": "Certificate for Fundamentals of Digital Marketing",
+      "imageUrl": "https://images.unsplash.com/photo-1559588501-59a118c47e59?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NTM3NjU0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "certificate document"
+    },
+    {
+      "id": "cert_biz2",
+      "description": "Certificate for Strategic Planning",
+      "imageUrl": "https://images.unsplash.com/photo-1503252947848-7338d3f92f31?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NTM3NjU0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "certificate document"
+    },
+    {
+      "id": "cert_biz3",
+      "description": "Certificate for Business Model Canvas",
+      "imageUrl": "https://images.unsplash.com/photo-1589330694653-ded6df03f754?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NTM3NjU0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "certificate document"
     },
     {

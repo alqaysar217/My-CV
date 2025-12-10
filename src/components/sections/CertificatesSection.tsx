@@ -1,3 +1,4 @@
+
 "use client";
 
 import Image from "next/image";
@@ -39,14 +40,20 @@ const CertificatesSection = () => {
   const data = siteData[language].certificates;
 
   const categories = Array.from(new Set(data.list.map((cert) => cert.category)));
+  const arabicCategories = {
+    "AI & Data": "الذكاء الاصطناعي والبيانات",
+    "Cybersecurity & IT": "الأمن السيبراني وتقنية المعلومات",
+    "Development": "التطوير",
+    "Business & Marketing": "الأعمال والتسويق"
+  } as { [key: string]: string };
 
   return (
     <section id="certificates" className="container mx-auto py-20 md:py-32 px-4">
       <SectionTitle>{data.title}</SectionTitle>
         <Tabs defaultValue={categories[0]} className="w-full" dir={direction}>
-            <TabsList className="grid w-full max-w-2xl mx-auto grid-cols-2 md:grid-cols-4 mb-10 bg-card/80 backdrop-blur-sm">
+            <TabsList className="grid w-full max-w-3xl mx-auto grid-cols-2 md:grid-cols-4 mb-10 bg-card/80 backdrop-blur-sm h-auto flex-wrap">
                 {categories.map(category => (
-                    <TabsTrigger key={category} value={category}>{category}</TabsTrigger>
+                    <TabsTrigger key={category} value={category} className="flex-1 min-w-max">{language === 'ar' ? arabicCategories[category] || category : category}</TabsTrigger>
                 ))}
             </TabsList>
             {categories.map(category => (
