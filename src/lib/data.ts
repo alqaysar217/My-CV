@@ -3,6 +3,7 @@ export const siteData = {
   en: {
     nav: [
       { name: 'About', href: '#about' },
+      { name: 'Experience', href: '#experience' },
       { name: 'Skills', href: '#skills' },
       { name: 'Projects', href: '#projects' },
       { name: 'Contact', href: '#contact' },
@@ -11,7 +12,7 @@ export const siteData = {
       initials: 'M . H',
       name: 'MAHMOUD OMAR ALI HASSANI',
       subtitle: 'Management Information Systems Graduate | Full Stack Web Developer',
-      caption: 'Building the future, one line of code at a time',
+      caption: "Ambitious and practical MIS graduate with a strong foundation in Full Stack Development and AI. Proven track record of building 10+ deployed applications. Experienced in technical training and leadership.",
       cta: {
         cv: 'DOWNLOAD CV',
         whatsapp: 'CONTACT ON WHATSAPP',
@@ -26,6 +27,30 @@ export const siteData = {
         { icon: 'dev', title: 'Full Stack Developer', desc: 'Building robust web and mobile applications.' },
         { icon: 'instructor', title: 'Programming Instructor', desc: 'Teaching and mentoring aspiring coders.' },
       ],
+    },
+    experience: {
+        title: "Professional Experience",
+        list: [
+            {
+                role: "Programming Instructor",
+                company: "Abaad Institute",
+                date: "2024 – Present",
+                points: [
+                    "Delivered comprehensive training courses in Python, C++, C#, SQL, and Web Development (HTML, CSS).",
+                    "Taught Windows Form applications and database management to diverse groups of students.",
+                    "Mentored students in practical coding exercises, enhancing their problem-solving skills."
+                ]
+            },
+            {
+                role: "Educational Content Creator",
+                company: "YouTube (Mahmoud Hassani Channel)",
+                date: "2024 – Present",
+                points: [
+                    "Created and published technical tutorials focusing on programming and software development.",
+                    "Built a community of learners by simplifying complex coding concepts."
+                ]
+            }
+        ]
     },
     skills: {
       title: 'Skills',
@@ -182,6 +207,7 @@ export const siteData = {
   ar: {
     nav: [
       { name: 'عني', href: '#about' },
+      { name: 'الخبرة', href: '#experience' },
       { name: 'المهارات', href: '#skills' },
       { name: 'المشاريع', href: '#projects' },
       { name: 'تواصل', href: '#contact' },
@@ -190,7 +216,7 @@ export const siteData = {
       initials: 'م . ح',
       name: 'محمود عمر علي حسني',
       subtitle: 'خريج نظم معلومات إدارية | مطور ويب متكامل',
-      caption: 'بناء المستقبل، سطراً برمجياً في كل مرة',
+      caption: 'خريج نظم معلومات إدارية طموح وعملي ولدي أساس قوي في تطوير الويب المتكامل والذكاء الاصطناعي. سجل حافل ببناء أكثر من 10 تطبيقات منشورة. لدي خبرة في التدريب الفني والقيادة.',
       cta: {
         cv: 'تحميل السيرة الذاتية',
         whatsapp: 'تواصل عبر واتساب',
@@ -205,6 +231,30 @@ export const siteData = {
         { icon: 'dev', title: 'مطور ويب متكامل', desc: 'بناء تطبيقات ويب وموبايل قوية.' },
         { icon: 'instructor', title: 'مدرب برمجة', desc: 'تعليم وتوجيه المبرمجين الطموحين.' },
       ],
+    },
+    experience: {
+        title: "الخبرة المهنية",
+        list: [
+            {
+                role: "مدرب برمجة",
+                company: "معهد أبعاد",
+                date: "2024 – الآن",
+                points: [
+                    "قدمت دورات تدريبية شاملة في Python, C++, C#, SQL, وتطوير الويب (HTML, CSS).",
+                    "درّست تطبيقات Windows Form وإدارة قواعد البيانات لمجموعات متنوعة من الطلاب.",
+                    "وجهت الطلاب في تمارين برمجية عملية، مما عزز مهاراتهم في حل المشكلات."
+                ]
+            },
+            {
+                role: "صانع محتوى تعليمي",
+                company: "يوتيوب (قناة محمود حسني)",
+                date: "2024 – الآن",
+                points: [
+                    "أنشأت ونشرت دروسًا فنية تركز على البرمجة وتطوير البرمجيات.",
+                    "بنيت مجتمعًا من المتعلمين من خلال تبسيط مفاهيم البرمجة المعقدة."
+                ]
+            }
+        ]
     },
     skills: {
       title: 'المهارات',
