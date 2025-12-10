@@ -8,7 +8,7 @@ import GlowCard from "../GlowCard";
 import { Button } from "../ui/button";
 import { Download, MessageCircle } from "lucide-react";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
-import { GraduationCap, Code, Briefcase } from "lucide-react";
+import { GraduationCap, Code, Briefcase, Languages } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 
 const icons = {
@@ -22,6 +22,7 @@ const AboutSection = () => {
   const data = siteData[language].about;
   const cta = siteData[language].hero.cta;
   const educationData = siteData[language].education;
+  const languagesData = siteData[language].languages;
   const profileImage = PlaceHolderImages.find((img) => img.id === "profile");
 
   return (
@@ -74,6 +75,24 @@ const AboutSection = () => {
                   </Badge>
               </div>
             </div>
+
+            <div className="mt-8 border-t border-primary/10 pt-8">
+                <div className="flex items-center gap-4 mb-4">
+                    <div className="bg-primary/10 border border-primary/20 text-primary p-3 rounded-full">
+                        <Languages className="h-8 w-8" />
+                    </div>
+                    <h3 className="font-bold text-foreground text-lg">{languagesData.title}</h3>
+                </div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                {languagesData.list.map((lang) => (
+                    <div key={lang.name} className="flex items-center gap-2">
+                        <span className="font-semibold">{lang.name}:</span>
+                        <span className="text-muted-foreground">{lang.level}</span>
+                    </div>
+                ))}
+                </div>
+            </div>
+
 
             <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
               <Button size="lg" className="shadow-neon-cyan hover:shadow-neon-cyan/70 transition-shadow">
