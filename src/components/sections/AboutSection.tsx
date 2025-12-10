@@ -6,7 +6,7 @@ import { useLanguage } from "@/contexts/LanguageContext";
 import SectionTitle from "../SectionTitle";
 import GlowCard from "../GlowCard";
 import { Button } from "../ui/button";
-import { Download, MessageCircle, Languages } from "lucide-react";
+import { Download, MessageCircle } from "lucide-react";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { GraduationCap, Code, Briefcase } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
@@ -22,7 +22,6 @@ const AboutSection = () => {
   const data = siteData[language].about;
   const cta = siteData[language].hero.cta;
   const educationData = siteData[language].education;
-  const languagesData = siteData[language].languages;
   const profileImage = PlaceHolderImages.find((img) => img.id === "profile");
 
   return (
@@ -74,25 +73,6 @@ const AboutSection = () => {
                       {educationData.gpaLabel}: {educationData.gpa}
                   </Badge>
               </div>
-            </div>
-
-            <div className="mt-8 border-t border-primary/10 pt-8">
-                <div className="flex flex-col sm:flex-row items-center gap-6">
-                    <div className="bg-primary/10 border border-primary/20 text-primary p-3 rounded-full">
-                        <Languages className="h-8 w-8" />
-                    </div>
-                    <div className="flex-grow">
-                        <h3 className="mb-2 font-bold text-foreground text-lg">{languagesData.title}</h3>
-                        <div className="flex gap-6">
-                            {languagesData.list.map((lang) => (
-                                <div key={lang.name}>
-                                    <span className="font-semibold">{lang.name}: </span>
-                                    <span className="text-muted-foreground">{lang.level}</span>
-                                </div>
-                            ))}
-                        </div>
-                    </div>
-                </div>
             </div>
 
             <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
