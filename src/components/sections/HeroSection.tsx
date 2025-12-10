@@ -30,7 +30,7 @@ const HeroSection = () => {
       id="home"
       className="relative flex items-center justify-center h-screen-dynamic overflow-hidden"
     >
-      <div className="absolute inset-0 z-10">
+      <div className="absolute inset-0 z-10 opacity-70">
         <HeroAnimation />
       </div>
 
@@ -38,12 +38,6 @@ const HeroSection = () => {
         className="relative z-20 flex flex-col items-center text-center px-4"
         dir={direction}
       >
-        <div className="relative w-40 h-40 md:w-48 md:h-48 mb-4">
-            <div className="absolute inset-0 flex items-center justify-center text-5xl md:text-6xl font-headline font-black text-glow">
-                {data.initials}
-            </div>
-        </div>
-
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black tracking-tighter mb-2 font-headline text-glow-primary text-primary">
           {data.name}
         </h1>
