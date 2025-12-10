@@ -175,6 +175,7 @@ export const siteData = {
             { id: "course_winforms", title: "Visual Programming Course - Windows Forms", description: "Learn to design professional graphical interfaces and connect them to code using C#.", link: "https://youtube.com/playlist?list=PLBqHNq4xMtKZu1Zfpl7dUTM7OPjWtvERf", featured: false, rating: 4 },
             { id: "course_web", title: "Intro to Web - HTML + CSS", description: "The basics of building web pages and styling them using HTML and CSS in a simple and clear way.", link: "https://youtube.com/playlist?list=PLBqHNq4xMtKaMSF0YMx7xCzc2Eu79IDiv", featured: false, rating: 4 },
             { id: "course_sql", title: "Intro to Databases - SQL", description: "Learn how to create databases, execute queries, and work with tables.", link: "https://youtube.com/playlist?list=PLBqHNq4xMtKYorFE5tCByMEPYs4odgN5n", featured: false, rating: 5 },
+            { id: "course_misc", title: "Miscellaneous Tech Tutorials", description: "A variety of quick and practical technical lessons in multiple fields.", link: "https://youtube.com/playlist?list=PLBqHNq4xMtKa8eUleU43wcY23Exhvhbkt", featured: false, rating: 4.3 },
         ]
     },
     contact: {
@@ -388,6 +389,7 @@ export const siteData = {
             { id: "course_winforms", title: "كورس البرمجة المرئية – Windows Forms", description: "تعلم تصميم واجهات رسومية احترافية وربطها بالكود باستخدام C#.", link: "https://youtube.com/playlist?list=PLBqHNq4xMtKZu1Zfpl7dUTM7OPjWtvERf", featured: false, rating: 4 },
             { id: "course_web", title: "مقدمة في الويب – HTML + CSS", description: "أساسيات بناء صفحات الويب والتصميم باستخدام HTML و CSS بطريقة بسيطة وواضحة.", link: "https://youtube.com/playlist?list=PLBqHNq4xMtKaMSF0YMx7xCzc2Eu79IDiv", featured: false, rating: 4 },
             { id: "course_sql", title: "مقدمة قواعد البيانات – SQL", description: "تعلم كيفية إنشاء قواعد البيانات، تنفيذ الاستعلامات، والتعامل مع الجداول.", link: "https://youtube.com/playlist?list=PLBqHNq4xMtKYorFE5tCByMEPYs4odgN5n", featured: false, rating: 5 },
+            { id: "course_misc", title: "دروس تقنية متنوعة", description: "مجموعة متنوعة من الدروس التقنية في مجالات متعددة بشكل عملي وسريع.", link: "https://youtube.com/playlist?list=PLBqHNq4xMtKa8eUleU43wcY23Exhvhbkt", featured: false, rating: 4.3 },
         ]
     },
     contact: {
@@ -427,3 +429,5 @@ export const siteData = {
     ],
   },
 };
+
+    
