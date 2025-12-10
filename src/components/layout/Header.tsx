@@ -33,7 +33,7 @@ const Header = () => {
       >
         <nav className="container mx-auto flex items-center justify-between px-4 py-3">
           <Link href="#home" className="text-2xl font-bold font-headline text-glow-primary">
-            {language === 'ar' ? 'محمود' : 'M.H'}
+            {language === 'ar' ? 'محمود' : 'Mahmoud'}
           </Link>
           <div className="hidden md:flex items-center gap-6">
             {navItems.map((item) => (
