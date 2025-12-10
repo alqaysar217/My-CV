@@ -84,7 +84,7 @@ const YoutubeCoursesSection = () => {
                                 alt={channelData.title}
                                 width={1280}
                                 height={720}
-                                className="w-full object-cover transition-transform duration-300 hover:scale-105"
+                                className="w-full object-cover transition-transform duration-300 hover:scale-105 aspect-video"
                                 data-ai-hint={channelImage.imageHint}
                             />
                         </div>
