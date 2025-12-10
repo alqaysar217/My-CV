@@ -8,6 +8,7 @@ import GlowCard from "../GlowCard";
 import { Button } from "../ui/button";
 import { Star, MessageCircle } from "lucide-react";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
+import FloatingShapes from "../3d/FloatingShapes";
 
 const BookCard = ({ book }: { book: (typeof siteData.en.books.list)[0] }) => {
   const bookImage = PlaceHolderImages.find((img) => img.id === book.id);
@@ -78,7 +79,8 @@ const BooksSection = () => {
   const data = siteData[language].books;
 
   return (
-    <section id="books" className="container mx-auto py-20 md:py-32 px-4">
+    <section id="books" className="relative container mx-auto py-20 md:py-32 px-4 overflow-hidden">
+      <FloatingShapes />
       <SectionTitle>{data.title}</SectionTitle>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         {data.list.map((book) => (

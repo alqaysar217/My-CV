@@ -5,13 +5,15 @@ import { useLanguage } from "@/contexts/LanguageContext";
 import SectionTitle from "../SectionTitle";
 import GlowCard from "../GlowCard";
 import { Briefcase, CheckCircle2 } from "lucide-react";
+import FloatingShapes from "../3d/FloatingShapes";
 
 const ExperienceSection = () => {
   const { language, direction } = useLanguage();
   const data = siteData[language].experience;
 
   return (
-    <section id="experience" className="w-full py-20 md:py-32 bg-card/40">
+    <section id="experience" className="relative w-full py-20 md:py-32 bg-card/40 overflow-hidden">
+      <FloatingShapes />
       <div className="container mx-auto px-4">
         <SectionTitle>{data.title}</SectionTitle>
         <div className="relative max-w-4xl mx-auto" dir={direction}>

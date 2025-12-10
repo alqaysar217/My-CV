@@ -9,6 +9,7 @@ import { Link as LinkIcon } from "lucide-react";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { Badge } from "@/components/ui/badge";
 import { BrainCircuit, Figma, FileText, Code } from "lucide-react";
+import FloatingShapes from "../3d/FloatingShapes";
 
 // Map of technology names to their SVG icons.
 const techIconMap: { [key: string]: React.ReactNode } = {
@@ -136,7 +137,8 @@ const ProjectsSection = () => {
   const data = siteData[language].projects;
 
   return (
-    <section id="projects" className="w-full py-20 md:py-32 bg-card/40">
+    <section id="projects" className="relative w-full py-20 md:py-32 bg-card/40 overflow-hidden">
+      <FloatingShapes />
       <div className="container mx-auto px-4" dir={direction}>
         <SectionTitle>{data.title}</SectionTitle>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">

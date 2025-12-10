@@ -10,6 +10,7 @@ import { Download, MessageCircle } from "lucide-react";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { GraduationCap, Code, Briefcase, Languages } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
+import FloatingShapes from "../3d/FloatingShapes";
 
 const icons = {
   grad: <GraduationCap className="h-8 w-8 text-accent" />,
@@ -33,7 +34,8 @@ const AboutSection = () => {
   };
 
   return (
-    <section id="about" className="container mx-auto py-20 md:py-32 px-4">
+    <section id="about" className="relative container mx-auto py-20 md:py-32 px-4 overflow-hidden">
+      <FloatingShapes />
       <SectionTitle>{data.title}</SectionTitle>
       <GlowCard>
         <div className="grid md:grid-cols-3 gap-8 md:gap-12 items-center">

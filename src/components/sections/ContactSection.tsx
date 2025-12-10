@@ -14,6 +14,7 @@ import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "
 import { useToast } from "@/hooks/use-toast";
 import { Github, Linkedin, Youtube, Instagram, MessageCircle, Mail, Phone, MapPin } from "lucide-react";
 import Link from "next/link";
+import FloatingShapes from "../3d/FloatingShapes";
 
 
 const socialIcons = {
@@ -62,7 +63,8 @@ const ContactSection = () => {
   };
 
   return (
-    <section id="contact" className="container mx-auto py-20 md:py-32 px-4">
+    <section id="contact" className="relative container mx-auto py-20 md:py-32 px-4 overflow-hidden">
+      <FloatingShapes />
       <SectionTitle>{data.title}</SectionTitle>
       <div className="grid md:grid-cols-5 gap-10">
         <div className="md:col-span-2 space-y-6" dir={direction}>

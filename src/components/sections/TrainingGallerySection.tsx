@@ -5,6 +5,7 @@ import { siteData } from "@/lib/data";
 import { useLanguage } from "@/contexts/LanguageContext";
 import SectionTitle from "../SectionTitle";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
+import FloatingShapes from "../3d/FloatingShapes";
 
 const TrainingGallerySection = () => {
   const { language, direction } = useLanguage();
@@ -12,7 +13,8 @@ const TrainingGallerySection = () => {
   const galleryImages = PlaceHolderImages.filter(img => img.id.startsWith("gallery"));
 
   return (
-    <section id="gallery" className="container mx-auto py-20 md:py-32 px-4">
+    <section id="gallery" className="relative container mx-auto py-20 md:py-32 px-4 overflow-hidden">
+      <FloatingShapes />
       <SectionTitle>{data.title}</SectionTitle>
       <div className="columns-2 md:columns-3 lg:columns-4 gap-4 space-y-4">
         {galleryImages.map((image, index) => (

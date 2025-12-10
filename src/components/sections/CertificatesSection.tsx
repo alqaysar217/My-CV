@@ -8,6 +8,7 @@ import SectionTitle from "../SectionTitle";
 import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
+import FloatingShapes from "../3d/FloatingShapes";
 
 const CertificateCard = ({ cert }: { cert: (typeof siteData.en.certificates.list)[0] }) => {
     const certImage = PlaceHolderImages.find((img) => img.id === cert.id);
@@ -61,7 +62,8 @@ const CertificatesSection = () => {
   }
 
   return (
-    <section id="certificates" className="container mx-auto py-20 md:py-32 px-4">
+    <section id="certificates" className="relative container mx-auto py-20 md:py-32 px-4 overflow-hidden">
+      <FloatingShapes />
       <SectionTitle>{data.title}</SectionTitle>
         <Tabs defaultValue={allCategoryName} className="w-full" dir={direction}>
             <TabsList className="grid w-full max-w-full mx-auto grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 mb-10 bg-card/80 backdrop-blur-sm h-auto flex-wrap">

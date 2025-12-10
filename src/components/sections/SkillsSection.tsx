@@ -17,6 +17,7 @@ import {
   Monitor,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
+import FloatingShapes from "../3d/FloatingShapes";
 
 const iconMap = {
   web: <Monitor className="h-6 w-6 text-accent" />,
@@ -81,7 +82,8 @@ const SkillsSection = () => {
   }, []);
 
   return (
-    <section id="skills" className="container mx-auto py-20 md:py-32 px-4" ref={sectionRef}>
+    <section id="skills" className="relative container mx-auto py-20 md:py-32 px-4 overflow-hidden" ref={sectionRef}>
+      <FloatingShapes />
       <SectionTitle>{data.title}</SectionTitle>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8" dir={direction}>
         {data.categories.map((category, index) => (

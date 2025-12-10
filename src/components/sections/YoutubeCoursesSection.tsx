@@ -8,6 +8,7 @@ import { Button } from "../ui/button";
 import { Star, Youtube } from "lucide-react";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import GlowCard from "../GlowCard";
+import FloatingShapes from "../3d/FloatingShapes";
 
 const CourseCard = ({ course }: { course: (typeof siteData.en.courses.list)[0] }) => {
   const courseImage = PlaceHolderImages.find((img) => img.id === course.id);
@@ -66,7 +67,8 @@ const YoutubeCoursesSection = () => {
 
 
   return (
-    <section id="courses" className="w-full py-20 md:py-32 bg-card/40">
+    <section id="courses" className="relative w-full py-20 md:py-32 bg-card/40 overflow-hidden">
+      <FloatingShapes />
       <div className="container mx-auto px-4" dir={direction}>
         <SectionTitle>{data.title}</SectionTitle>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
