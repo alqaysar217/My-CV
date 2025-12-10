@@ -136,6 +136,13 @@ export const siteData = {
         gpaLabel: "GPA",
         gpa: "86.12% (Very Good)"
     },
+    languages: {
+        title: "Languages",
+        list: [
+            { name: "Arabic", level: "Native" },
+            { name: "English", level: "Good" }
+        ]
+    },
     certificates: {
         title: "Certificates",
         list: [
@@ -360,6 +367,13 @@ export const siteData = {
         date: "2025",
         gpaLabel: "المعدل",
         gpa: "86.12% (جيد جداً)"
+    },
+    languages: {
+        title: "اللغات",
+        list: [
+            { name: "العربية", level: "اللغة الأم" },
+            { name: "الإنجليزية", level: "جيد" }
+        ]
     },
     certificates: {
         title: "الشهادات",
