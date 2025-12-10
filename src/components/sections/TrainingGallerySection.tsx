@@ -47,7 +47,8 @@ const TrainingGallerySection = () => {
                   alt={`${data.imageAlt} ${index + 1}`}
                   width={500}
                   height={500}
-                  className="h-auto w-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-105"
+                  className="h-auto w-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-105 group-hover:rotate-y-15"
+                  style={{ transformStyle: "preserve-3d" }}
                   data-ai-hint={image.imageHint}
                 />
                 <div className="absolute inset-0 bg-black/20 transition-all duration-300 group-hover:bg-black/40"></div>
