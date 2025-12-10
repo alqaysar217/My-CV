@@ -198,10 +198,10 @@ export const siteData = {
         copyright: "Mahmoud Omar Ali Hassani. All rights reserved."
     },
     socialLinks: [
-      { name: "GitHub", icon: "github", url: "https://github.com" },
+      { name: "GitHub", icon: "github", url: "https://github.com/alqaysar217" },
       { name: "LinkedIn", icon: "linkedin", url: "https://www.linkedin.com/in/mahmoudhassani/" },
-      { name: "YouTube", icon: "youtube", url: "https://youtube.com" },
-      { name: "Instagram", icon: "instagram", url: "https://instagram.com" },
+      { name: "YouTube", icon: "youtube", url: "https://www.youtube.com/@mahmoud_code" },
+      { name: "Instagram", icon: "instagram", url: "https://www.instagram.com/mahmoud_codes/" },
     ],
   },
   ar: {
@@ -402,10 +402,10 @@ export const siteData = {
         copyright: "محمود عمر علي حسني. جميع الحقوق محفوظة."
     },
     socialLinks: [
-      { name: "GitHub", icon: "github", url: "https://github.com" },
+      { name: "GitHub", icon: "github", url: "https://github.com/alqaysar217" },
       { name: "LinkedIn", icon: "linkedin", url: "https://www.linkedin.com/in/mahmoudhassani/" },
-      { name: "YouTube", icon: "youtube", url: "https://youtube.com" },
-      { name: "Instagram", icon: "instagram", url: "https://instagram.com" },
+      { name: "YouTube", icon: "youtube", url: "https://www.youtube.com/@mahmoud_code" },
+      { name: "Instagram", icon: "instagram", url: "https://www.instagram.com/mahmoud_codes/" },
     ],
   },
 };
