@@ -100,7 +100,7 @@ const Header = () => {
             href="#home"
             className="text-2xl font-bold font-headline text-accent"
           >
-            {language === "ar" ? "محمود" : "Mahmoud"}
+            {isMounted ? (language === "ar" ? "محمود" : "Mahmoud") : "Mahmoud"}
           </Link>
           <div className="hidden md:flex items-center gap-6">
             {navItems.map((item) => (
