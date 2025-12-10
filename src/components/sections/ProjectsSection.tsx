@@ -8,6 +8,7 @@ import { Button } from "../ui/button";
 import { Link as LinkIcon } from "lucide-react";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
+import { BrainCircuit, Figma, FileText } from "lucide-react";
 
 // A small, reusable component for technology icons with tooltips.
 const TechIcon = ({ name, children }: { name: string, children: React.ReactNode }) => (
@@ -63,12 +64,6 @@ const techIconMap: { [key: string]: React.ReactNode } = {
   Stripe: (
     <svg role="img" viewBox="0 0 24 24" className="h-5 w-5" style={{ color: '#635BFF' }}><path fill="currentColor" d="M18.428 11.309c0 1.252-1.01 2.268-2.257 2.268H12.75V9.04h3.42c1.248 0 2.257 1.015 2.257 2.268zm0 5.443c0 1.252-1.01 2.268-2.257 2.268h-7.61V14.48h7.61c1.248 0 2.257 1.016 2.257 2.272zM21.6 9.04v1.89h-1.63V9.04H21.6zM24 6.772v10.456c0 .762-.31 1.48-1.488 1.48h-1.63V4.962c2.096.34 2.872 1.34 3.118 1.81zM7.228 9.04H5.597v1.89h1.63V9.04zM0 6.772v10.456c0 .762.31 1.48 1.488 1.48h1.63V4.962C1.024 5.302.248 6.302 0 6.772z"/></svg>
   ),
-  'ASP.NET': (
-    <svg role="img" viewBox="0 0 24 24" className="h-5 w-5" style={{ color: '#5C2D91' }}><path fill="currentColor" d="m11.173 17.58-.29.502L12 18.66l1.117-.579-.29-.501-1.39.8-1.265-.7zm.83-1.438-1.433.827.466.81 1.433-.827-.466-.81zM22.82 24l-3.77-6.53-2.937 1.701L12 22.56l-4.113-3.39-2.937-1.7v3.96L1.18 24h21.64zM24 5.48v13.04l-3.77-6.52L24 5.48zM1.18 5.48 5.063 12l-3.88 6.52V5.48zm2.68 0h16.28L12 17.58 3.86 5.48zM12 4.417l-1.15.632-1.43-2.476L12 1.289l2.58 1.284-1.43 2.476L12 4.417zm-4.14-2.39L6.427 4.2l-2.58 4.47L1.288 6.24l6.572-4.22zm8.28 0 2.56 4.47-2.58-4.47-2.56-2.427 6.57 4.22z"/></svg>
-  ),
-  'C#': (
-    <svg role="img" viewBox="0 0 24 24" className="h-5 w-5" style={{ color: '#239120' }}><path fill="currentColor" d="M12 1.289l-10.432 6v12l10.432 6 10.432-6v-12l-10.432-6zm-3.222 17.556c-1.022.4-2.266.6-3.733.6-1.956 0-3.378-1.022-3.378-2.667 0-1.733 1.555-2.533 3.333-2.533h.4v-1.822h-.4c-1.2 0-2.222-.533-2.222-1.733s.933-1.689 2.178-1.689c1.422 0 2.622.2 3.644.6l.4-1.733c-1.2-.4-2.667-.622-4.133-.622-2.978 0-4.8 1.6-4.8 4.044 0 1.956 1.244 3.111 3.2 3.556v.044c-2.222.311-3.6 1.6-3.6 3.6 0 2.622 2.089 4.311 5.2 4.311 1.511 0 3-.222 4.222-.667l-.489-1.822zM22.5 13.5h-3v3h-3v-3h-3v-3h3v-3h3v3h3v3z"/></svg>
-  ),
   'SQL Server': (
     <svg role="img" viewBox="0 0 24 24" className="h-5 w-5" style={{ color: '#CC2927' }}><path fill="currentColor" d="M22.286 11.233H1.714v1.439h20.572v-1.439zM1.714 6.772v2.877h5.143V6.772H1.714zm0 9.296h5.143v-2.878H1.714v2.878zM8.571 6.772h6.858v2.877H8.571V6.772zm0 9.296h6.858v-2.878H8.571v2.878zM17.143 6.772h5.143v2.877h-5.143V6.772zm0 9.296h5.143v-2.878h-5.143v2.878zM22.286 3.5V5.11h-5.143V3.5h5.143zM1.714 3.5V5.11h5.143V3.5H1.714zm6.857 0V5.11h6.858V3.5H8.571zM1.714 17.79v2.71h5.143v-2.71H1.714zm6.857 0v2.71h6.858v-2.71H8.571zm8.572 0v2.71h5.143v-2.71h-5.143zM0 1.414v21.172h24V1.414H0z"/></svg>
   ),
@@ -78,11 +73,19 @@ const techIconMap: { [key: string]: React.ReactNode } = {
   Django: (
     <svg role="img" viewBox="0 0 24 24" className="h-5 w-5" style={{ color: '#092E20' }}><path fill="currentColor" d="M0 18.23h3.81V7.12H0v11.11zm4.762 0h3.81V7.12h-3.81v11.11zM9.524 9.94a1.8 1.8 0 0 0-1.81 1.815v6.475h3.81V11.77a1.8 1.8 0 0 0-1.81-1.83v-.001zm3.62 3.195c-1.61 0-3.32.7-3.32 3.1v1.995h6.61v-1.995c.01-2.4-1.7-3.1-3.29-3.1zM24 16.71c-2.3 0-4.04-1.74-4.04-4.07 0-2.34 1.73-4.07 4.04-4.07V16.7z"/></svg>
   ),
+  AI: (
+    <BrainCircuit className="h-5 w-5 text-purple-400" />
+  ),
+  Figma: (
+    <Figma className="h-5 w-5" />
+  ),
+  default: (
+    <FileText className="h-5 w-5" />
+  )
 };
 
 const ProjectCard = ({ project }: { project: (typeof siteData.en.projects.list)[0] }) => {
   const projectImage = PlaceHolderImages.find((img) => img.id === project.id);
-  const { language } = useLanguage();
 
   return (
     <div className="group relative rounded-lg overflow-hidden border border-primary/20 bg-card/50 backdrop-blur-sm transition-all duration-300 hover:border-accent hover:shadow-neon-cyan hover:-translate-y-2">
@@ -100,7 +103,7 @@ const ProjectCard = ({ project }: { project: (typeof siteData.en.projects.list)[
         <div className="flex justify-between items-start">
           <div>
             <h3 className="text-xl font-bold font-headline">{project.title}</h3>
-            <p className="text-muted-foreground mt-2 min-h-[40px]">{project.description}</p>
+            <p className="text-muted-foreground mt-2 min-h-[60px] text-sm">{project.description}</p>
           </div>
           <Button variant="outline" size="icon" asChild className="border-accent/50 text-accent hover:bg-accent/10 hover:text-accent w-10 h-10 flex-shrink-0 ml-4">
             <a href={project.link} target="_blank" rel="noopener noreferrer" aria-label={`Live Demo of ${project.title}`}>
@@ -109,9 +112,9 @@ const ProjectCard = ({ project }: { project: (typeof siteData.en.projects.list)[
           </Button>
         </div>
         <div className="flex flex-wrap gap-2 mt-4">
-          {project.tech.map((tech) => (
+          {project.tech && project.tech.map((tech) => (
             <TechIcon key={tech} name={tech}>
-              {techIconMap[tech] || <span>{tech.substring(0, 2)}</span>}
+              {techIconMap[tech] || techIconMap['default']}
             </TechIcon>
           ))}
         </div>
@@ -139,5 +142,3 @@ const ProjectsSection = () => {
 };
 
 export default ProjectsSection;
-
-    

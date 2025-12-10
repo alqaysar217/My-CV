@@ -9,14 +9,14 @@
     {
       "id": "project1",
       "description": "Screenshot of Aduai project",
-      "imageUrl": "https://images.unsplash.com/photo-1601972602237-8c79241e468b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxtb2JpbGUlMjBhcHB8ZW58MHx8fHwxNzY1MzMzODgzfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "mobile app"
+      "imageUrl": "https://images.unsplash.com/photo-1712213193498-f14d84a72e81?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlJTIwZWR1Y2F0aW9ufGVufDB8fHx8MTc2NTU1ODk4M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "AI education"
     },
     {
       "id": "project2",
       "description": "Screenshot of Nabd Jawhar project",
-      "imageUrl": "https://images.unsplash.com/photo-1748609278627-4b0e483b9b70?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx3ZWJzaXRlJTIwZGFzaGJvYXJkfGVufDB8fHx8MTc2NTMwMjk5OXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "website dashboard"
+      "imageUrl": "https://images.unsplash.com/photo-1588776814546-da620295186b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxob21lJTIwaGVhbHRoY2FyZXxlbnwwfHx8fDE3NjU1NTkwMzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "home healthcare"
     },
     {
       "id": "project3",
@@ -33,14 +33,38 @@
     {
       "id": "project5",
       "description": "Screenshot of Organization Developer project",
-      "imageUrl": "https://images.unsplash.com/photo-1658953229625-aad99d7603b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzYWFzJTIwaW50ZXJmYWNlfGVufDB8fHx8MTc2NTM0ODgyMnww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "saas interface"
+      "imageUrl": "https://images.unsplash.com/photo-1542744173-05336fcc7ad4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzdHVkZW50JTIwcHJvamVjdHN8ZW58MHx8fHwxNzY1NTU5MTM3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "student projects"
     },
     {
       "id": "project6",
       "description": "Screenshot of Everest project",
-      "imageUrl": "https://images.unsplash.com/photo-1531403009284-440f080d1e12?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxwcm9qZWN0JTIwbWFuYWdlbWVudHxlbnwwfHx8fDE3NjUzMzIzMzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "project management"
+      "imageUrl": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjcnAlMjBzaXRlfGVufDB8fHx8MTc2NTU1OTE4NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "corporate site"
+    },
+    {
+      "id": "project7",
+      "description": "Screenshot of Bashaib E-commerce project",
+      "imageUrl": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtb3RvcmN5Y2xlJTIwc2hvcHxlbnwwfHx8fDE3NjU1NTkyMTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "motorcycle shop"
+    },
+    {
+      "id": "project8",
+      "description": "Screenshot of Fioncah E-commerce project",
+      "imageUrl": "https://images.unsplash.com/photo-1598554747443-a602ace982d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3b21lbiUyMGFjY2Vzc29yaWVzJTIwc3RvcmV8ZW58MHx8fHwxNzY1NTU5MjUwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "women accessories"
+    },
+    {
+      "id": "project9",
+      "description": "Screenshot of Sakina Islamic Site project",
+      "imageUrl": "https://images.unsplash.com/photo-1584025114524-a74528148b3a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxpc2xhbWljJTIwYm9va3xlbnwwfHx8fDE3NjU1NTkyOTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "islamic book"
+    },
+    {
+      "id": "project10",
+      "description": "Screenshot of Omqi Mobile App project",
+      "imageUrl": "https://images.unsplash.com/photo-1616469829935-c2f334a06573?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmaW5hbmNlJTIwbW9iaWxlJTIwYXBwJTIwdWl8ZW58MHx8fHwxNzY1NTU5MzI0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "finance mobile"
     },
     {
       "id": "cert_ai1",
