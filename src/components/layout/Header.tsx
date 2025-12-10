@@ -15,7 +15,34 @@ import {
   SheetTitle,
 } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
-import { Menu } from "lucide-react";
+import {
+  Menu,
+  Home,
+  User,
+  Briefcase,
+  Shapes,
+  FolderKanban,
+  Award,
+  Book,
+  GalleryHorizontal,
+  Youtube,
+  Mail,
+} from "lucide-react";
+
+const navIcons = {
+  home: <Home />,
+  user: <User />,
+  briefcase: <Briefcase />,
+  shapes: <Shapes />,
+  folderKanban: <FolderKanban />,
+  award: <Award />,
+  book: <Book />,
+  galleryHorizontal: <GalleryHorizontal />,
+  youtube: <Youtube />,
+  mail: <Mail />,
+};
+
+type NavIconKeys = keyof typeof navIcons;
 
 const Header = () => {
   const { language, direction } = useLanguage();
@@ -33,6 +60,29 @@ const Header = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  const NavLink = ({
+    item,
+    isMobile = false,
+  }: {
+    item: (typeof navItems)[0];
+    isMobile?: boolean;
+  }) => {
+    const Icon = navIcons[item.icon as NavIconKeys];
+    return (
+      <Link
+        href={item.href}
+        className={cn(
+          "flex items-center gap-2 font-medium transition-colors hover:text-accent",
+          isMobile
+            ? "text-lg text-foreground"
+            : "text-sm text-muted-foreground"
+        )}
+      >
+        <span className="text-accent">{Icon}</span>
+        <span>{item.name}</span>
+      </Link>
+    );
+  };
 
   return (
     <>
@@ -54,13 +104,7 @@ const Header = () => {
           </Link>
           <div className="hidden md:flex items-center gap-6">
             {navItems.map((item) => (
-              <Link
-                key={item.name}
-                href={item.href}
-                className="text-sm font-medium text-muted-foreground transition-colors hover:text-accent"
-              >
-                {item.name}
-              </Link>
+              <NavLink key={item.name} item={item} />
             ))}
           </div>
           <div className="md:hidden">
@@ -77,12 +121,7 @@ const Header = () => {
                   <div className="flex flex-col gap-6 pt-10">
                     {navItems.map((item) => (
                       <SheetClose key={item.name} asChild>
-                       <Link
-                        href={item.href}
-                        className="text-lg font-medium text-foreground transition-colors hover:text-accent"
-                      >
-                        {item.name}
-                      </Link>
+                        <NavLink item={item} isMobile={true} />
                       </SheetClose>
                     ))}
                   </div>
