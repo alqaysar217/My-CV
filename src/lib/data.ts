@@ -10,7 +10,7 @@ export const siteData = {
     hero: {
       initials: 'M . H',
       name: 'MAHMOUD OMAR ALI HASSANI',
-      subtitle: 'Full Stack Developer | MIS Graduate | Programming Instructor',
+      subtitle: 'Management Information Systems Graduate | Full Stack Web Developer',
       caption: 'Building the future, one line of code at a time',
       cta: {
         cv: 'DOWNLOAD CV',
@@ -20,7 +20,7 @@ export const siteData = {
     about: {
       title: 'About Me',
       imageAlt: 'Photo of Mahmoud Omar Ali Hassani',
-      bio: "A passionate MIS graduate and Full-Stack Developer from Iraq with a knack for crafting elegant solutions to complex problems. As a programming instructor, I'm dedicated to sharing knowledge and inspiring the next generation of developers. My journey is driven by a constant quest for learning and a passion for building innovative technology.",
+      bio: "Ambitious and practical Management Information Systems (MIS) graduate (2025) with a strong foundation in Full Stack Web Development and AI integration. Proven track record of building 10+ deployed web applications and platforms. Experienced in technical training and leadership, having instructed students in programming languages (Python, C#, SQL). Seeking to leverage strong technical skills, strategic planning abilities, and passion for continuous learning in a challenging IT or Software Development role.",
       roles: [
         { icon: 'grad', title: 'MIS Graduate', desc: 'Bachelor\'s in Management Information Systems.' },
         { icon: 'dev', title: 'Full Stack Developer', desc: 'Building robust web and mobile applications.' },
@@ -94,11 +94,11 @@ export const siteData = {
     },
     education: {
         title: "Education",
-        degree: "Bachelor's in Management Information Systems (MIS)",
-        university: "University of Information Technology and Communications",
-        date: "2018 - 2022",
+        degree: "Bachelor of Management Information Systems (MIS)",
+        university: "Hadramout University, College of Administrative Sciences",
+        date: "2025",
         gpaLabel: "GPA",
-        gpa: "86.12%"
+        gpa: "86.12% (Very Good)"
     },
     certificates: {
         title: "Certificates",
@@ -148,9 +148,9 @@ export const siteData = {
         info: {
             title: "Contact Information",
             description: "Feel free to reach out to me for collaborations, inquiries, or just to say hi! I'm always open to discussing new projects and ideas.",
-            email: "mahmoud@example.com",
-            phone: "+964 123 456 7890",
-            location: "Baghdad, Iraq",
+            email: "pr.mahmoud.20@gmail.com",
+            phone: "+967 775 258 830",
+            location: "Hadramout, Yemen",
         },
         form: {
             name: "Full Name",
@@ -174,7 +174,7 @@ export const siteData = {
     },
     socialLinks: [
       { name: "GitHub", icon: "github", url: "https://github.com" },
-      { name: "LinkedIn", icon: "linkedin", url: "https://linkedin.com" },
+      { name: "LinkedIn", icon: "linkedin", url: "https://www.linkedin.com/in/mahmoudhassani/" },
       { name: "YouTube", icon: "youtube", url: "https://youtube.com" },
       { name: "Instagram", icon: "instagram", url: "https://instagram.com" },
     ],
@@ -189,7 +189,7 @@ export const siteData = {
     hero: {
       initials: 'م . ح',
       name: 'محمود عمر علي حسني',
-      subtitle: 'مطور ويب متكامل | خريج نظم معلومات إدارية | مدرب برمجة',
+      subtitle: 'خريج نظم معلومات إدارية | مطور ويب متكامل',
       caption: 'بناء المستقبل، سطراً برمجياً في كل مرة',
       cta: {
         cv: 'تحميل السيرة الذاتية',
@@ -199,7 +199,7 @@ export const siteData = {
     about: {
       title: 'عني',
       imageAlt: 'صورة محمود عمر علي حسني',
-      bio: 'خريج نظم معلومات إدارية شغوف ومطور ويب متكامل من العراق، أمتلك موهبة في صياغة حلول أنيقة للمشكلات المعقدة. بصفتي مدرب برمجة، أكرس نفسي لمشاركة المعرفة وإلهام الجيل القادم من المطورين. رحلتي مدفوعة بسعي دائم للتعلم وشغف ببناء تكنولوجيا مبتكرة.',
+      bio: 'خريج نظم معلومات إدارية (2025) طموح وعملي، ولدي أساس قوي في تطوير الويب المتكامل وتكامل الذكاء الاصطناعي. سجل حافل ببناء أكثر من 10 تطبيقات ومنصات ويب تم نشرها. لدي خبرة في التدريب الفني والقيادة، حيث قمت بتدريب الطلاب على لغات البرمجة (Python، C#، SQL). أسعى إلى الاستفادة من المهارات التقنية القوية، وقدرات التخطيط الاستراتيجي، والشغف بالتعلم المستمر في دور مليء بالتحديات في مجال تكنولوجيا المعلومات أو تطوير البرمجيات.',
       roles: [
         { icon: 'grad', title: 'خريج نظم معلومات إدارية', desc: 'بكالوريوس في نظم المعلومات الإدارية.' },
         { icon: 'dev', title: 'مطور ويب متكامل', desc: 'بناء تطبيقات ويب وموبايل قوية.' },
@@ -274,27 +274,27 @@ export const siteData = {
     education: {
         title: "التعليم",
         degree: "بكالوريوس في نظم المعلومات الإدارية (MIS)",
-        university: "جامعة تكنولوجيا المعلومات والاتصالات",
-        date: "2018 - 2022",
+        university: "جامعة حضرموت، كلية العلوم الإدارية",
+        date: "2025",
         gpaLabel: "المعدل",
-        gpa: "86.12%"
+        gpa: "86.12% (جيد جداً)"
     },
     certificates: {
         title: "الشهادات",
         list: [
-            { id: "cert_ai1", title: "عناصر الذكاء الاصطناعي", provider: "جامعة هلسنكي", date: "2023", category: "الذكاء الاصطناعي والبيانات" },
-            { id: "cert_ai2", title: "الذكاء الاصطناعي للجميع", provider: "ITI", date: "2023", category: "الذكاء الاصطناعي والبيانات" },
-            { id: "cert_ai3", title: "هندسة الأوامر", provider: "مؤسسة دبي للمستقبل", date: "2023", category: "الذكاء الاصطناعي والبيانات" },
-            { id: "cert_ai4", title: "تحليل الأعمال باستخدام Excel", provider: "Simplilearn", date: "2022", category: "الذكاء الاصطناعي والبيانات" },
-            { id: "cert_cyber1", title: "أساسيات مهنة إدارة النظم", provider: "Microsoft", date: "2024", category: "الأمن السيبراني وتقنية المعلومات" },
-            { id: "cert_cyber2", title: "أساسيات تحليل البرمجيات الخبيثة", provider: "عبر الإنترنت", date: "2023", category: "الأمن السيبراني وتقنية المعلومات" },
-            { id: "cert_cyber3", title: "مقدمة في الشبكات", provider: "إدراك", date: "2022", category: "الأمن السيبراني وتقنية المعلومات" },
-            { id: "cert_dev1", title: "Git & GitHub", provider: "Mind Luster", date: "2024", category: "التطوير" },
-            { id: "cert_dev2", title: "مقدمة في C++", provider: "Sololearn", date: "2021", category: "التطوير" },
-            { id: "cert_dev3", title: "HTML الكامل للمبتدئين", provider: "عبر الإنترنت", date: "2021", category: "التطوير" },
-            { id: "cert_biz1", title: "أساسيات التسويق الرقمي", provider: "Google", date: "2023", category: "الأعمال والتسويق" },
-            { id: "cert_biz2", title: "التخطيط الاستراتيجي", provider: "سديم", date: "2022", category: "الأعمال والتسويق" },
-            { id: "cert_biz3", title: "نموذج العمل التجاري", provider: "رواق", date: "2022", category: "الأعمال والتسويق" },
+            { id: "cert_ai1", title: "عناصر الذكاء الاصطناعي", provider: "جامعة هلسنكي", date: "2023", category: "AI & Data" },
+            { id: "cert_ai2", title: "الذكاء الاصطناعي للجميع", provider: "ITI", date: "2023", category: "AI & Data" },
+            { id: "cert_ai3", title: "هندسة الأوامر", provider: "مؤسسة دبي للمستقبل", date: "2023", category: "AI & Data" },
+            { id: "cert_ai4", title: "تحليل الأعمال باستخدام Excel", provider: "Simplilearn", date: "2022", category: "AI & Data" },
+            { id: "cert_cyber1", title: "أساسيات مهنة إدارة النظم", provider: "Microsoft", date: "2024", category: "Cybersecurity & IT" },
+            { id: "cert_cyber2", title: "أساسيات تحليل البرمجيات الخبيثة", provider: "عبر الإنترنت", date: "2023", category: "Cybersecurity & IT" },
+            { id: "cert_cyber3", title: "مقدمة في الشبكات", provider: "إدراك", date: "2022", category: "Cybersecurity & IT" },
+            { id: "cert_dev1", title: "Git & GitHub", provider: "Mind Luster", date: "2024", category: "Development" },
+            { id: "cert_dev2", title: "مقدمة في C++", provider: "Sololearn", date: "2021", category: "Development" },
+            { id: "cert_dev3", title: "HTML الكامل للمبتدئين", provider: "عبر الإنترنت", date: "2021", category: "Development" },
+            { id: "cert_biz1", title: "أساسيات التسويق الرقمي", provider: "Google", date: "2023", category: "Business & Marketing" },
+            { id: "cert_biz2", title: "التخطيط الاستراتيجي", provider: "سديم", date: "2022", category: "Business & Marketing" },
+            { id: "cert_biz3", title: "نموذج العمل التجاري", provider: "رواق", date: "2022", category: "Business & Marketing" },
         ]
     },
     books: {
@@ -327,9 +327,9 @@ export const siteData = {
         info: {
             title: "معلومات التواصل",
             description: "لا تتردد في التواصل معي للتعاون أو الاستفسارات أو حتى لإلقاء التحية! أنا منفتح دائمًا لمناقشة المشاريع والأفكار الجديدة.",
-            email: "mahmoud@example.com",
-            phone: "+964 123 456 7890",
-            location: "بغداد، العراق",
+            email: "pr.mahmoud.20@gmail.com",
+            phone: "+967 775 258 830",
+            location: "حضرموت، اليمن",
         },
         form: {
             name: "الاسم الكامل",
@@ -353,7 +353,7 @@ export const siteData = {
     },
     socialLinks: [
       { name: "GitHub", icon: "github", url: "https://github.com" },
-      { name: "LinkedIn", icon: "linkedin", url: "https://linkedin.com" },
+      { name: "LinkedIn", icon: "linkedin", url: "https://www.linkedin.com/in/mahmoudhassani/" },
       { name: "YouTube", icon: "youtube", url: "https://youtube.com" },
       { name: "Instagram", icon: "instagram", url: "https://instagram.com" },
     ],
