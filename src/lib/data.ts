@@ -150,8 +150,10 @@ export const siteData = {
         cta: "Order via WhatsApp",
         whatsappMessage: "Hello, I want to order the book: [Book Title]. My name is ",
         list: [
-            { id: "book1", title: "The Art of C++", description: "A deep dive into modern C++ features and best practices.", author: "Mahmoud Hassani", pages: 350, rating: 4.8 },
-            { id: "book2", title: "Pythonic Code", description: "Writing clean, efficient, and readable Python.", author: "Mahmoud Hassani", pages: 280, rating: 4.9 },
+            { id: "book_python", title: "Python Basics for Beginners", description: "A simple and practical introduction to learning the basics of the Python language with practical examples suitable for beginners.", author: "Eng. Mahmoud Al-Hassani", pages: 135, rating: 4.9 },
+            { id: "book_sql", title: "SQL Databases", description: "A practical explanation of SQL concepts, creating tables, queries, and dealing with databases step by step.", author: "Eng. Mahmoud Al-Hassani", pages: 107, rating: 4.8 },
+            { id: "book_winforms", title: "Visual Programming - Windows Forms", description: "Your guide to learning how to design graphical interfaces and connect them to code using Windows Forms.", author: "Eng. Mahmoud Al-Hassani", pages: 105, rating: 4.7 },
+            { id: "book_csharp_console", title: "Learn Programming Basics - Console (C#)", description: "Learn the basics of programming in C# through console applications in a simple and clear way.", author: "Eng. Mahmoud Al-Hassani", pages: 133, rating: 4.8 },
         ]
     },
     gallery: {
@@ -361,8 +363,10 @@ export const siteData = {
         cta: "اطلب عبر واتساب",
         whatsappMessage: "مرحباً، أريد طلب كتاب: [Book Title]. اسمي هو ",
         list: [
-            { id: "book1", title: "فن لغة C++", description: "نظرة عميقة على ميزات C++ الحديثة وأفضل الممارسات.", author: "محمود حسني", pages: 350, rating: 4.8 },
-            { id: "book2", title: "الكود البايثوني", description: "كتابة كود Python نظيف وفعال ومقروء.", author: "محمود حسني", pages: 280, rating: 4.9 },
+            { id: "book_python", title: "أساسيات بايثون للمبتدئين", description: "مدخل مبسط وعملي لتعلم أساسيات لغة بايثون مع أمثلة تطبيقية مناسبة للمبتدئين.", author: "م. محمود الحسني", pages: 135, rating: 4.9 },
+            { id: "book_sql", title: "قواعد البيانات SQL", description: "شرح عملي لمفاهيم SQL، إنشاء الجداول، الاستعلامات، والتعامل مع قواعد البيانات خطوة بخطوة.", author: "م. محمود الحسني", pages: 107, rating: 4.8 },
+            { id: "book_winforms", title: "البرمجة المرئية Windows Forms", description: "دليلك لتعلم تصميم الواجهات الرسومية وربطها بالكود باستخدام Windows Forms.", author: "م. محمود الحسني", pages: 105, rating: 4.7 },
+            { id: "book_csharp_console", title: "تعلم أساسيات البرمجة Console (C#)", description: "تعلم أساسيات البرمجة بلغة C# عبر تطبيقات الكونسول بشكل مبسط وواضح.", author: "م. محمود الحسني", pages: 133, rating: 4.8 },
         ]
     },
     gallery: {

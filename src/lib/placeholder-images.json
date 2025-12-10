@@ -121,16 +121,28 @@
       "imageHint": "certificate document"
     },
     {
-      "id": "book1",
-      "description": "Cover for The Art of C++ book",
+      "id": "book_python",
+      "description": "Cover for Python Basics for Beginners book",
       "imageUrl": "https://images.unsplash.com/photo-1528459105426-b9548367069b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxib29rJTIwY292ZXJ8ZW58MHx8fHwxNzY1MzMwODk3fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "book cover"
     },
     {
-      "id": "book2",
-      "description": "Cover for Pythonic Code book",
+      "id": "book_sql",
+      "description": "Cover for SQL Databases book",
       "imageUrl": "https://images.unsplash.com/photo-1633477189729-9290b3261d0a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxib29rJTIwY292ZXJ8ZW58MHx8fHwxNzY1MzMwODk3fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "book cover"
+    },
+    {
+      "id": "book_winforms",
+      "description": "Cover for Visual Programming - Windows Forms book",
+      "imageUrl": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxib29rfGVufDB8fHx8MTc2NTQ2MzkxOXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "book"
+    },
+    {
+      "id": "book_csharp_console",
+      "description": "Cover for Learn Programming Basics - Console (C#) book",
+      "imageUrl": "https://images.unsplash.com/photo-1549122728-f51970943692?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxib29rfGVufDB8fHx8MTc2NTQ2MzkxOXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "book"
     },
     {
       "id": "gallery1",
