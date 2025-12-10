@@ -18,7 +18,7 @@ const BookCard = ({ book }: { book: (typeof siteData.en.books.list)[0] }) => {
       "[Book Title]",
       book.title
     );
-    const whatsappUrl = `https://wa.me/${siteData.en.contact.phone.replace(/\s/g, "")}?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/${siteData.en.contact.info.phone.replace(/\s/g, "")}?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, "_blank");
   };
 
