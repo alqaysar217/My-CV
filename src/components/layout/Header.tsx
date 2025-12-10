@@ -60,6 +60,18 @@ const Header = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  if (!isMounted) {
+    return (
+      <header className={cn("fixed top-0 left-0 right-0 z-50 bg-transparent")}>
+        <nav className="container mx-auto flex items-center justify-between px-4 py-3">
+          <div className="text-2xl font-bold font-headline text-accent">
+            &nbsp; 
+          </div>
+        </nav>
+      </header>
+    );
+  }
+
   const NavLink = ({
     item,
     isMobile = false,
@@ -100,7 +112,7 @@ const Header = () => {
             href="#home"
             className="text-2xl font-bold font-headline text-accent"
           >
-            {isMounted ? (language === "ar" ? "محمود" : "Mahmoud") : "Mahmoud"}
+            {language === "ar" ? "محمود" : "Mahmoud"}
           </Link>
           <div className="hidden md:flex items-center gap-6">
             {navItems.map((item) => (
@@ -108,7 +120,6 @@ const Header = () => {
             ))}
           </div>
           <div className="md:hidden">
-            {isMounted && (
               <Sheet open={isMobileMenuOpen} onOpenChange={setIsMobileMenuOpen}>
                 <SheetTrigger asChild>
                   <Button variant="ghost" size="icon">
@@ -127,7 +138,6 @@ const Header = () => {
                   </div>
                 </SheetContent>
               </Sheet>
-            )}
           </div>
         </nav>
       </header>
