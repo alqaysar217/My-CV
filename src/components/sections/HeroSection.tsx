@@ -26,6 +26,13 @@ const HeroSection = () => {
   const { language, direction } = useLanguage();
   const data = siteData[language].hero;
 
+  const handleWhatsAppClick = () => {
+    const phone = siteData.en.contact.info.phone.replace(/[\s+]/g, "");
+    const message = encodeURIComponent("Hello Mahmoud, I'm reaching out from your portfolio website.");
+    const whatsappUrl = `https://wa.me/${phone}?text=${message}`;
+    window.open(whatsappUrl, "_blank");
+  };
+
   return (
     <section
       id="home"
@@ -53,7 +60,12 @@ const HeroSection = () => {
             <Download className="me-2 h-5 w-5" />
             {data.cta.cv}
           </Button>
-          <Button size="lg" variant="outline" className="border-purple-500/50 text-purple-400 hover:bg-purple-500/10 hover:text-purple-300 hover:border-purple-500 shadow-lg shadow-purple-500/10 hover:shadow-purple-500/20 transition-all text-lg px-8 py-6">
+          <Button 
+            size="lg" 
+            variant="outline" 
+            className="border-purple-500/50 text-purple-400 hover:bg-purple-500/10 hover:text-purple-300 hover:border-purple-500 shadow-lg shadow-purple-500/10 hover:shadow-purple-500/20 transition-all text-lg px-8 py-6"
+            onClick={handleWhatsAppClick}
+          >
             <WhatsAppIcon />
             {data.cta.whatsapp}
           </Button>
@@ -65,7 +77,7 @@ const HeroSection = () => {
               variant="ghost"
               size="icon"
               asChild
-              className="h-16 w-16 text-muted-foreground hover:text-accent hover:bg-accent/10 transition-colors duration-300 [&>svg]:h-10 [&>svg]:w-10"
+              className="h-20 w-20 text-muted-foreground hover:text-accent hover:bg-accent/10 transition-colors duration-300 [&>svg]:h-10 [&>svg]:w-10"
             >
               <Link
                 href={social.url}
