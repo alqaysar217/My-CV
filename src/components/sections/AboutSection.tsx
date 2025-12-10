@@ -9,6 +9,7 @@ import { Button } from "../ui/button";
 import { Download, MessageCircle } from "lucide-react";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { GraduationCap, Code, Briefcase } from "lucide-react";
+import { Badge } from "@/components/ui/badge";
 
 const icons = {
   grad: <GraduationCap className="h-8 w-8 text-accent" />,
@@ -20,6 +21,7 @@ const AboutSection = () => {
   const { language, direction } = useLanguage();
   const data = siteData[language].about;
   const cta = siteData[language].hero.cta;
+  const educationData = siteData[language].education;
   const profileImage = PlaceHolderImages.find((img) => img.id === "profile");
 
   return (
@@ -56,6 +58,23 @@ const AboutSection = () => {
                 </div>
               ))}
             </div>
+            
+            <div className="mt-8 border-t border-primary/10 pt-8">
+              <div className="flex flex-col sm:flex-row items-center gap-6 text-center sm:text-left">
+                  <div className="bg-primary/10 border border-primary/20 text-primary p-3 rounded-full">
+                      <GraduationCap className="h-8 w-8" />
+                  </div>
+                  <div className="flex-grow">
+                      <p className="text-sm text-muted-foreground">{educationData.date}</p>
+                      <h3 className="mb-1 mt-1 font-bold text-foreground text-lg">{educationData.degree}</h3>
+                      <p className="text-sm leading-snug tracking-wide text-muted-foreground">{educationData.university}</p>
+                  </div>
+                  <Badge className="bg-accent/10 text-accent border-accent/30 shadow-lg shadow-accent/10 text-base py-1 px-3">
+                      {educationData.gpaLabel}: {educationData.gpa}
+                  </Badge>
+              </div>
+            </div>
+
             <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
               <Button size="lg" className="shadow-neon-cyan hover:shadow-neon-cyan/70 transition-shadow">
                 <Download className="me-2 h-5 w-5" />
