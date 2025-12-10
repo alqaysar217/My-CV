@@ -24,6 +24,13 @@ const AboutSection = () => {
   const educationData = siteData[language].education;
   const languagesData = siteData[language].languages;
   const profileImage = PlaceHolderImages.find((img) => img.id === "profile");
+  
+  const handleWhatsAppClick = () => {
+    const phone = siteData.en.contact.info.phone.replace(/[\s+]/g, "");
+    const message = encodeURIComponent("Hello Mahmoud, I'm reaching out from your portfolio website.");
+    const whatsappUrl = `https://wa.me/${phone}?text=${message}`;
+    window.open(whatsappUrl, "_blank");
+  };
 
   return (
     <section id="about" className="container mx-auto py-20 md:py-32 px-4">
@@ -99,7 +106,7 @@ const AboutSection = () => {
                 <Download className="me-2 h-5 w-5" />
                 {cta.cv}
               </Button>
-              <Button size="lg" variant="outline" className="border-purple-500/50 text-purple-400 hover:bg-purple-500/10 hover:text-purple-300 hover:border-purple-500 shadow-lg shadow-purple-500/10 hover:shadow-purple-500/20 transition-all">
+              <Button onClick={handleWhatsAppClick} size="lg" variant="outline" className="border-purple-500/50 text-purple-400 hover:bg-purple-500/10 hover:text-purple-300 hover:border-purple-500 shadow-lg shadow-purple-500/10 hover:shadow-purple-500/20 transition-all">
                 <MessageCircle className="me-2 h-5 w-5" />
                 {cta.whatsapp}
               </Button>
