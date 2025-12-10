@@ -39,7 +39,10 @@ const CertificatesSection = () => {
   const { language, direction } = useLanguage();
   const data = siteData[language].certificates;
 
-  const categories = Array.from(new Set(data.list.map((cert) => cert.category)));
+  const allCategoryName = language === 'ar' ? 'الكل' : 'All';
+  const uniqueCategories = Array.from(new Set(data.list.map((cert) => cert.category)));
+  const categories = [allCategoryName, ...uniqueCategories];
+  
   const arabicCategories = {
     "AI & Data": "الذكاء الاصطناعي والبيانات",
     "Cybersecurity & IT": "الأمن السيبراني وتقنية المعلومات",
@@ -47,16 +50,31 @@ const CertificatesSection = () => {
     "Business & Marketing": "الأعمال والتسويق"
   } as { [key: string]: string };
 
+  const getCategoryName = (category: string) => {
+    if (language === 'ar') {
+      if (category === allCategoryName) return allCategoryName;
+      return arabicCategories[category] || category;
+    }
+    return category;
+  }
+
   return (
     <section id="certificates" className="container mx-auto py-20 md:py-32 px-4">
       <SectionTitle>{data.title}</SectionTitle>
-        <Tabs defaultValue={categories[0]} className="w-full" dir={direction}>
-            <TabsList className="grid w-full max-w-3xl mx-auto grid-cols-2 md:grid-cols-4 mb-10 bg-card/80 backdrop-blur-sm h-auto flex-wrap">
+        <Tabs defaultValue={allCategoryName} className="w-full" dir={direction}>
+            <TabsList className="grid w-full max-w-4xl mx-auto grid-cols-2 md:grid-cols-3 lg:grid-cols-5 mb-10 bg-card/80 backdrop-blur-sm h-auto flex-wrap">
                 {categories.map(category => (
-                    <TabsTrigger key={category} value={category} className="flex-1 min-w-max">{language === 'ar' ? arabicCategories[category] || category : category}</TabsTrigger>
+                    <TabsTrigger key={category} value={category} className="flex-1 min-w-max">{getCategoryName(category)}</TabsTrigger>
                 ))}
             </TabsList>
-            {categories.map(category => (
+            <TabsContent value={allCategoryName}>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    {data.list.map((cert) => (
+                        <CertificateCard key={cert.id} cert={cert} />
+                    ))}
+                </div>
+            </TabsContent>
+            {uniqueCategories.map(category => (
                  <TabsContent key={category} value={category}>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                         {data.list.filter(cert => cert.category === category).map((cert) => (
