@@ -29,7 +29,7 @@ const CourseCard = ({ course }: { course: (typeof siteData.en.courses.list)[0] }
   }
 
   return (
-    <GlowCard className="flex flex-col h-full group">
+    <GlowCard className="flex flex-col h-full group p-0">
         {courseImage && (
              <div className="overflow-hidden rounded-t-lg">
                 <Image
