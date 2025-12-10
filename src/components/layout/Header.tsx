@@ -6,11 +6,20 @@ import { useLanguage } from "@/contexts/LanguageContext";
 import { siteData } from "@/lib/data";
 import { cn } from "@/lib/utils";
 import LanguageSwitcher from "../LanguageSwitcher";
+import {
+  Sheet,
+  SheetContent,
+  SheetTrigger,
+  SheetClose,
+} from "@/components/ui/sheet";
+import { Button } from "@/components/ui/button";
+import { Menu } from "lucide-react";
 
 const Header = () => {
   const { language, direction } = useLanguage();
   const navItems = siteData[language].nav;
   const [isScrolled, setIsScrolled] = useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -32,8 +41,11 @@ const Header = () => {
         dir={direction}
       >
         <nav className="container mx-auto flex items-center justify-between px-4 py-3">
-          <Link href="#home" className="text-2xl font-bold font-headline text-glow-primary">
-            {language === 'ar' ? 'محمود' : 'Mahmoud'}
+          <Link
+            href="#home"
+            className="text-2xl font-bold font-headline text-glow-primary"
+          >
+            {language === "ar" ? "محمود" : "Mahmoud"}
           </Link>
           <div className="hidden md:flex items-center gap-6">
             {navItems.map((item) => (
@@ -47,7 +59,28 @@ const Header = () => {
             ))}
           </div>
           <div className="md:hidden">
-            {/* Mobile menu can be added here if needed */}
+            <Sheet open={isMobileMenuOpen} onOpenChange={setIsMobileMenuOpen}>
+              <SheetTrigger asChild>
+                <Button variant="ghost" size="icon">
+                  <Menu className="h-6 w-6" />
+                  <span className="sr-only">Open Menu</span>
+                </Button>
+              </SheetTrigger>
+              <SheetContent side={direction === 'rtl' ? 'left' : 'right'}>
+                <div className="flex flex-col gap-6 pt-10">
+                  {navItems.map((item) => (
+                    <SheetClose key={item.name} asChild>
+                       <Link
+                        href={item.href}
+                        className="text-lg font-medium text-foreground transition-colors hover:text-accent"
+                      >
+                        {item.name}
+                      </Link>
+                    </SheetClose>
+                  ))}
+                </div>
+              </SheetContent>
+            </Sheet>
           </div>
         </nav>
       </header>
