@@ -96,7 +96,7 @@ const BooksSection = () => {
       >
         <CarouselContent>
           {data.list.map((book) => (
-            <CarouselItem key={book.id} className="md:basis-1/2 xl:basis-1/3">
+            <CarouselItem key={book.id} className="md:basis-1/2">
               <div className="p-1 h-full">
                 <BookCard book={book} />
               </div>
