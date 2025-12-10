@@ -8,7 +8,7 @@ import { Button } from "../ui/button";
 import { Link as LinkIcon } from "lucide-react";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
-import { BrainCircuit, Figma, FileText } from "lucide-react";
+import { BrainCircuit, Figma, FileText, Code } from "lucide-react";
 
 // A small, reusable component for technology icons with tooltips.
 const TechIcon = ({ name, children }: { name: string, children: React.ReactNode }) => (
@@ -72,6 +72,18 @@ const techIconMap: { [key: string]: React.ReactNode } = {
   ),
   Django: (
     <svg role="img" viewBox="0 0 24 24" className="h-5 w-5" style={{ color: '#092E20' }}><path fill="currentColor" d="M0 18.23h3.81V7.12H0v11.11zm4.762 0h3.81V7.12h-3.81v11.11zM9.524 9.94a1.8 1.8 0 0 0-1.81 1.815v6.475h3.81V11.77a1.8 1.8 0 0 0-1.81-1.83v-.001zm3.62 3.195c-1.61 0-3.32.7-3.32 3.1v1.995h6.61v-1.995c.01-2.4-1.7-3.1-3.29-3.1zM24 16.71c-2.3 0-4.04-1.74-4.04-4.07 0-2.34 1.73-4.07 4.04-4.07V16.7z"/></svg>
+  ),
+  Vite: (
+    <svg role="img" viewBox="0 0 24 24" className="h-5 w-5"><path fill="#646CFF" d="M12 0L1.6 15.5h6.9L12 24l3.5-8.5h6.9L12 0z"/><path fill="#FFC107" d="M12 0L1.6 15.5h6.9L12 24l3.5-8.5h6.9L12 0z"/></svg>
+  ),
+  HTML: (
+    <svg role="img" viewBox="0 0 24 24" className="h-5 w-5" style={{ color: '#E34F26' }}><path fill="currentColor" d="M1.6 21.4l1.8-20.3h17.2l-1.8 20.3-6.8 2.6-6.8-2.6zM6.5 7.8h11.8l-.4 4.8H8.1l.3 3.3h5.9l-.4 4-3.4 1.3-3.4-1.3-.2-2.5H4.6l.3 5.4 7.1 2.6 7.1-2.6.9-10.3.4-4.8.4-4.8H5l-.3 3.4z"/></svg>
+  ),
+  CSS: (
+    <svg role="img" viewBox="0 0 24 24" className="h-5 w-5" style={{ color: '#1572B6' }}><path fill="currentColor" d="M1.6 21.4l1.8-20.3h17.2l-1.8 20.3-6.8 2.6-6.8-2.6zM17.4 6.3H6.5l.3 3.3h9.3l-.3 3.3H7.1l.3 3.3h8.3l-.4 4-3.4 1.3-3.4-1.3-.2-2.5H5.8l.3 5.4 6.9 2.6 6.9-2.6 1-11.2.3-3.4.1-1.1z"/></svg>
+  ),
+  JavaScript: (
+    <svg role="img" viewBox="0 0 24 24" className="h-5 w-5" style={{ color: '#F7DF1E' }}><path fill="black" d="M0 0h24v24H0V0z"/><path fill="#F7DF1E" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14h-2V8h2v8zm5-4h-2V8h-2v4h-2v2h2v2h2v-2h2v-2z"/></svg>
   ),
   AI: (
     <BrainCircuit className="h-5 w-5 text-purple-400" />
