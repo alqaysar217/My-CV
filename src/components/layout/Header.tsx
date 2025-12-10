@@ -98,7 +98,7 @@ const Header = () => {
         <nav className="container mx-auto flex items-center justify-between px-4 py-3">
           <Link
             href="#home"
-            className="text-2xl font-bold font-headline text-accent text-glow"
+            className="text-2xl font-bold font-headline text-accent"
           >
             {language === "ar" ? "محمود" : "Mahmoud"}
           </Link>
