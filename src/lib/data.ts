@@ -159,10 +159,16 @@ export const siteData = {
         imageAlt: "Photo from a training session"
     },
     courses: {
-        title: "YouTube Courses",
+        title: "My YouTube Channel & Courses",
         cta: "Watch on YouTube",
+        channel: {
+            id: "channel_main",
+            title: "Mahmoud Code - Educational Channel",
+            description: "My channel is dedicated to simplifying programming and development concepts. I share tutorials and courses on various technologies to help build the next generation of developers. Subscribe to stay updated!",
+            link: "https://www.youtube.com/@mahmoud_code",
+        },
         list: [
-            { id: "course_os", title: "Operating Systems Course - Ubuntu", description: "Learn the basics of the Ubuntu operating system, how to use the terminal, and manage files.", link: "https://youtube.com/playlist?list=PLBqHNq4xMtKbvnceyc0XIKjCGeeP8PjtV", featured: true, rating: 5 },
+            { id: "course_os", title: "Operating Systems Course - Ubuntu", description: "Learn the basics of the Ubuntu operating system, how to use the terminal, and manage files.", link: "https://youtube.com/playlist?list=PLBqHNq4xMtKbvnceyc0XIKjCGeeP8PjtV", featured: false, rating: 5 },
             { id: "course_csharp", title: "C# Programming Fundamentals", description: "Start your programming journey by learning variables, loops, conditions, and functions in C#.", link: "https://youtube.com/playlist?list=PLBqHNq4xMtKaS3omNaEGCos8igXSP3wTK", featured: false, rating: 5 },
             { id: "course_winforms", title: "Visual Programming Course - Windows Forms", description: "Learn to design professional graphical interfaces and connect them to code using C#.", link: "https://youtube.com/playlist?list=PLBqHNq4xMtKZu1Zfpl7dUTM7OPjWtvERf", featured: false, rating: 4 },
             { id: "course_web", title: "Intro to Web - HTML + CSS", description: "The basics of building web pages and styling them using HTML and CSS in a simple and clear way.", link: "https://youtube.com/playlist?list=PLBqHNq4xMtKaMSF0YMx7xCzc2Eu79IDiv", featured: false, rating: 4 },
@@ -364,10 +370,16 @@ export const siteData = {
         imageAlt: "صورة من جلسة تدريبية"
     },
     courses: {
-        title: "دورات يوتيوب",
+        title: "قناتي على يوتيوب ودوراتي",
         cta: "شاهد على يوتيوب",
+        channel: {
+            id: "channel_main",
+            title: "محمود كود - قناة تعليمية",
+            description: "قناتي مخصصة لتبسيط مفاهيم البرمجة والتطوير. أشارك دروسًا ودورات في تقنيات مختلفة للمساعدة في بناء الجيل القادم من المطورين. اشترك لتبقى على اطلاع!",
+            link: "https://www.youtube.com/@mahmoud_code",
+        },
         list: [
-            { id: "course_os", title: "كورس نظم تشغيل – أوبونتو", description: "تعلم أساسيات نظام تشغيل أوبونتو وكيفية التعامل مع الطرفية وإدارة الملفات.", link: "https://youtube.com/playlist?list=PLBqHNq4xMtKbvnceyc0XIKjCGeeP8PjtV", featured: true, rating: 5 },
+            { id: "course_os", title: "كورس نظم تشغيل – أوبونتو", description: "تعلم أساسيات نظام تشغيل أوبونتو وكيفية التعامل مع الطرفية وإدارة الملفات.", link: "https://youtube.com/playlist?list=PLBqHNq4xMtKbvnceyc0XIKjCGeeP8PjtV", featured: false, rating: 5 },
             { id: "course_csharp", title: "أساسيات البرمجة بلغة C#", description: "ابدأ رحلتك في البرمجة بتعلم المتغيرات، الحلقات، الشروط، والدوال بلغة #C.", link: "https://youtube.com/playlist?list=PLBqHNq4xMtKaS3omNaEGCos8igXSP3wTK", featured: false, rating: 5 },
             { id: "course_winforms", title: "كورس البرمجة المرئية – Windows Forms", description: "تعلم تصميم واجهات رسومية احترافية وربطها بالكود باستخدام C#.", link: "https://youtube.com/playlist?list=PLBqHNq4xMtKZu1Zfpl7dUTM7OPjWtvERf", featured: false, rating: 4 },
             { id: "course_web", title: "مقدمة في الويب – HTML + CSS", description: "أساسيات بناء صفحات الويب والتصميم باستخدام HTML و CSS بطريقة بسيطة وواضحة.", link: "https://youtube.com/playlist?list=PLBqHNq4xMtKaMSF0YMx7xCzc2Eu79IDiv", featured: false, rating: 4 },

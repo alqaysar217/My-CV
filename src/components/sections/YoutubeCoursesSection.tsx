@@ -9,7 +9,7 @@ import { Star, Youtube } from "lucide-react";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import GlowCard from "../GlowCard";
 
-const CourseCard = ({ course, isFeatured }: { course: (typeof siteData.en.courses.list)[0], isFeatured: boolean }) => {
+const CourseCard = ({ course }: { course: (typeof siteData.en.courses.list)[0] }) => {
   const courseImage = PlaceHolderImages.find((img) => img.id === course.id);
   const { language } = useLanguage();
   
@@ -26,38 +26,6 @@ const CourseCard = ({ course, isFeatured }: { course: (typeof siteData.en.course
         ))}
         </div>
     )
-  }
-
-  if (isFeatured) {
-      return (
-        <GlowCard className="md:col-span-2 lg:col-span-3">
-             <div className="grid lg:grid-cols-2 gap-8 items-center">
-                {courseImage && (
-                    <div className="overflow-hidden rounded-lg">
-                        <Image
-                            src={courseImage.imageUrl}
-                            alt={course.title}
-                            width={1280}
-                            height={720}
-                            className="w-full object-cover transition-transform duration-300 hover:scale-105"
-                            data-ai-hint={courseImage.imageHint}
-                        />
-                    </div>
-                )}
-                <div>
-                    <h3 className="text-2xl md:text-3xl font-bold font-headline text-glow-primary">{course.title}</h3>
-                    {renderStars(course.rating)}
-                    <p className="text-muted-foreground mt-4">{course.description}</p>
-                    <Button asChild size="lg" className="mt-6 shadow-neon-cyan">
-                        <a href={course.link} target="_blank" rel="noopener noreferrer">
-                        <Youtube className="me-2 h-5 w-5" />
-                        {siteData[language].courses.cta}
-                        </a>
-                    </Button>
-                </div>
-            </div>
-        </GlowCard>
-      )
   }
 
   return (
@@ -93,18 +61,46 @@ const CourseCard = ({ course, isFeatured }: { course: (typeof siteData.en.course
 const YoutubeCoursesSection = () => {
   const { language, direction } = useLanguage();
   const data = siteData[language].courses;
-  const featuredCourse = data.list.find(c => c.featured);
-  const otherCourses = data.list.filter(c => !c.featured);
+  const channelData = data.channel;
+  const channelImage = PlaceHolderImages.find((img) => img.id === "course_os");
+
 
   return (
     <section id="courses" className="w-full py-20 md:py-32 bg-card/40">
       <div className="container mx-auto px-4" dir={direction}>
         <SectionTitle>{data.title}</SectionTitle>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {featuredCourse && <CourseCard course={featuredCourse} isFeatured={true} />}
-            {otherCourses.map((course) => (
-                <CourseCard key={course.id} course={course} isFeatured={false} />
+            {data.list.map((course) => (
+                <CourseCard key={course.id} course={course} />
             ))}
+        </div>
+        <div className="mt-12">
+            <GlowCard>
+                <div className="grid lg:grid-cols-2 gap-8 items-center">
+                    {channelImage && (
+                        <div className="overflow-hidden rounded-lg">
+                            <Image
+                                src={channelImage.imageUrl}
+                                alt={channelData.title}
+                                width={1280}
+                                height={720}
+                                className="w-full object-cover transition-transform duration-300 hover:scale-105"
+                                data-ai-hint={channelImage.imageHint}
+                            />
+                        </div>
+                    )}
+                    <div>
+                        <h3 className="text-2xl md:text-3xl font-bold font-headline text-glow-primary">{channelData.title}</h3>
+                        <p className="text-muted-foreground mt-4">{channelData.description}</p>
+                        <Button asChild size="lg" className="mt-6 shadow-neon-cyan">
+                            <a href={channelData.link} target="_blank" rel="noopener noreferrer">
+                            <Youtube className="me-2 h-5 w-5" />
+                            {data.cta}
+                            </a>
+                        </Button>
+                    </div>
+                </div>
+            </GlowCard>
         </div>
       </div>
     </section>
