@@ -65,7 +65,7 @@ const HeroSection = () => {
               variant="ghost"
               size="icon"
               asChild
-              className="h-20 w-20 text-muted-foreground hover:text-accent hover:bg-accent/10 transition-colors duration-300 [&>a>svg]:h-10 [&>a>svg]:w-10"
+              className="h-16 w-16 text-muted-foreground hover:text-accent hover:bg-accent/10 transition-colors duration-300 [&>svg]:h-10 [&>svg]:w-10"
             >
               <Link
                 href={social.url}
@@ -73,7 +73,7 @@ const HeroSection = () => {
                 rel="noopener noreferrer"
                 aria-label={social.name}
               >
-                {React.cloneElement(socialIcons[social.icon as SocialIconKeys], { className: "h-10 w-10" })}
+                {React.cloneElement(socialIcons[social.icon as SocialIconKeys])}
               </Link>
             </Button>
           ))}
