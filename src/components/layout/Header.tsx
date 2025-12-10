@@ -11,6 +11,7 @@ import {
   SheetContent,
   SheetTrigger,
   SheetClose,
+  SheetTitle,
 } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
 import { Menu } from "lucide-react";
@@ -67,6 +68,7 @@ const Header = () => {
                 </Button>
               </SheetTrigger>
               <SheetContent side={direction === 'rtl' ? 'left' : 'right'}>
+                <SheetTitle className="sr-only">Mobile Navigation</SheetTitle>
                 <div className="flex flex-col gap-6 pt-10">
                   {navItems.map((item) => (
                     <SheetClose key={item.name} asChild>
