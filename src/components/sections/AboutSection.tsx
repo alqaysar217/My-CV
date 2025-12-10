@@ -102,7 +102,7 @@ const AboutSection = () => {
 
 
             <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-              <Button size="lg" className="shadow-neon-cyan hover:shadow-neon-cyan/70 transition-shadow">
+              <Button size="lg" className="shadow-neon-cyan hover:shadow-neon-cyan/70 transition-shadow" onClick={() => window.open('/Mahmoud-Omar-CV.pdf', '_blank')}>
                 <Download className="me-2 h-5 w-5" />
                 {cta.cv}
               </Button>

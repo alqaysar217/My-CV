@@ -46,38 +46,38 @@ const HeroSection = () => {
         className="relative z-20 flex flex-col items-center text-center px-4"
         dir={direction}
       >
-        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black tracking-tighter mb-2 font-headline text-purple-400">
+        <h1 className="text-4xl sm:text-5xl md:text-6xl font-black tracking-tighter mb-2 font-headline text-purple-400">
           {data.name}
         </h1>
-        <p className="text-lg md:text-xl text-primary font-medium mb-4">
+        <p className="text-base sm:text-lg md:text-xl text-primary font-medium mb-4">
           {data.subtitle}
         </p>
-        <p className="max-w-2xl text-md md:text-lg text-muted-foreground mb-8">
+        <p className="max-w-2xl text-sm sm:text-md md:text-lg text-muted-foreground mb-6 md:mb-8">
           {data.caption}
         </p>
-        <div className="flex flex-col sm:flex-row gap-4 mb-8">
-          <Button size="lg" className="shadow-neon-cyan hover:shadow-neon-cyan/70 transition-shadow text-lg px-8 py-6">
+        <div className="flex flex-col sm:flex-row gap-4 mb-6 md:mb-8">
+          <Button size="lg" className="shadow-neon-cyan hover:shadow-neon-cyan/70 transition-shadow text-base sm:text-lg px-6 py-4 sm:px-8 sm:py-6" onClick={() => window.open('/Mahmoud-Omar-CV.pdf', '_blank')}>
             <Download className="me-2 h-5 w-5" />
             {data.cta.cv}
           </Button>
           <Button 
             size="lg" 
             variant="outline" 
-            className="border-purple-500/50 text-purple-400 hover:bg-purple-500/10 hover:text-purple-300 hover:border-purple-500 shadow-lg shadow-purple-500/10 hover:shadow-purple-500/20 transition-all text-lg px-8 py-6"
+            className="border-purple-500/50 text-purple-400 hover:bg-purple-500/10 hover:text-purple-300 hover:border-purple-500 shadow-lg shadow-purple-500/10 hover:shadow-purple-500/20 transition-all text-base sm:text-lg px-6 py-4 sm:px-8 sm:py-6"
             onClick={handleWhatsAppClick}
           >
             <WhatsAppIcon />
             {data.cta.whatsapp}
           </Button>
         </div>
-        <div className="flex gap-4">
+        <div className="flex gap-2">
           {siteData[language].socialLinks.map((social) => (
             <Button
               key={social.name}
               variant="ghost"
               size="icon"
               asChild
-              className="h-20 w-20 text-muted-foreground hover:text-accent hover:bg-accent/10 transition-colors duration-300 [&>svg]:h-10 [&>svg]:w-10"
+              className="h-12 w-12 text-muted-foreground hover:text-accent hover:bg-accent/10 transition-colors duration-300 [&>svg]:h-6 [&>svg]:w-6 sm:h-14 sm:w-14 sm:[&>svg]:h-7 sm:[&>svg]:w-7"
             >
               <Link
                 href={social.url}
