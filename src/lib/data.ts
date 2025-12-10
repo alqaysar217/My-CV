@@ -2,10 +2,15 @@
 export const siteData = {
   en: {
     nav: [
+      { name: 'Home', href: '#home' },
       { name: 'About', href: '#about' },
       { name: 'Experience', href: '#experience' },
       { name: 'Skills', href: '#skills' },
       { name: 'Projects', href: '#projects' },
+      { name: 'Certificates', href: '#certificates' },
+      { name: 'Books', href: '#books' },
+      { name: 'Gallery', href: '#gallery' },
+      { name: 'Courses', href: '#courses' },
       { name: 'Contact', href: '#contact' },
     ],
     hero: {
@@ -216,10 +221,15 @@ export const siteData = {
   },
   ar: {
     nav: [
+      { name: 'الرئيسية', href: '#home' },
       { name: 'عني', href: '#about' },
       { name: 'الخبرة', href: '#experience' },
       { name: 'المهارات', href: '#skills' },
       { name: 'المشاريع', href: '#projects' },
+      { name: 'الشهادات', href: '#certificates' },
+      { name: 'الكتب', href: '#books' },
+      { name: 'المعرض', href: '#gallery' },
+      { name: 'الدورات', href: '#courses' },
       { name: 'تواصل', href: '#contact' },
     ],
     hero: {
