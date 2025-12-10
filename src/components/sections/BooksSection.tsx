@@ -8,13 +8,6 @@ import GlowCard from "../GlowCard";
 import { Button } from "../ui/button";
 import { Star, MessageCircle } from "lucide-react";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel";
 
 const BookCard = ({ book }: { book: (typeof siteData.en.books.list)[0] }) => {
   const bookImage = PlaceHolderImages.find((img) => img.id === book.id);
@@ -55,7 +48,7 @@ const BookCard = ({ book }: { book: (typeof siteData.en.books.list)[0] }) => {
                 <Star
                   key={i}
                   className={`h-4 w-4 ${
-                    i < book.rating ? "text-yellow-400 fill-yellow-400" : "text-muted-foreground"
+                    i < Math.floor(book.rating) ? "text-yellow-400 fill-yellow-400" : "text-muted-foreground"
                   }`}
                 />
               ))}
@@ -87,25 +80,11 @@ const BooksSection = () => {
   return (
     <section id="books" className="container mx-auto py-20 md:py-32 px-4">
       <SectionTitle>{data.title}</SectionTitle>
-      <Carousel
-        opts={{
-          align: "start",
-          loop: true,
-        }}
-        className="w-full"
-      >
-        <CarouselContent>
-          {data.list.map((book) => (
-            <CarouselItem key={book.id} className="md:basis-1/2">
-              <div className="p-1 h-full">
-                <BookCard book={book} />
-              </div>
-            </CarouselItem>
-          ))}
-        </CarouselContent>
-        <CarouselPrevious className="text-primary hover:text-accent hover:bg-transparent border-primary hover:border-accent" />
-        <CarouselNext className="text-primary hover:text-accent hover:bg-transparent border-primary hover:border-accent" />
-      </Carousel>
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        {data.list.map((book) => (
+          <BookCard key={book.id} book={book} />
+        ))}
+      </div>
     </section>
   );
 };
