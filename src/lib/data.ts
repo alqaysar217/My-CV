@@ -116,18 +116,18 @@ export const siteData = {
         title: "Key Technical Projects",
         linkText: "Live Demo",
         list: [
-            { id: "project_portfolio", title: "Mahmoud Al-Hasani Portfolio", description: "My personal portfolio website showcasing my projects, skills, and experience.", tech: ["Next.js", "TypeScript", "Tailwind CSS"], link: "https://protofilo.mahmoud.vecel.app/" },
-            { id: "project_wethaqq", title: "Wethaqq", description: "A platform for documenting and verifying information, built with a modern tech stack.", tech: ["Next.js", "TypeScript", "Tailwind CSS"], link: "https://protofilo.mahmoud.vecel.app/" },
-            { id: "project1", title: "Aduai (Graduation Project)", description: "An integrated educational platform powered by 40+ AI tools for academic research and student assistance.", tech: ["Next.js", "TypeScript", "Firebase", "AI"], link: "https://aduai.vercel.app/" },
-            { id: "project2", title: "Nabd Jawhar", description: "Home healthcare service platform connecting patients with registered nurses for in-home medical care.", tech: ["Next.js", "TypeScript", "PostgreSQL", "Zod"], link: "https://nabd-jawhar.vercel.app/" },
             { id: "project3", title: "Abaad Institute Website", description: "Comprehensive platform for course enrollment, trainer profiles, book sales, and institute information.", tech: ["PHP", "MySQL", "Bootstrap"], link: "https://abaad-institute.vercel.app/" },
-            { id: "project4", title: "Saqia Charity", description: "Charitable donation platform for mosques, integrating local payment processors for direct contributions.", tech: ["React", "Vite", "TypeScript"], link: "https://saqia-charity-app.vercel.app/" },
-            { id: "project5", title: "Organization Developer Batch", description: "Documentation website for the MIS student cohort, featuring student profiles and project showcases.", tech: ["React", "Vite", "TypeScript"], link: "https://od10-mis.vercel.app/" },
+            { id: "project2", title: "Nabd Jawhar", description: "Home healthcare service platform connecting patients with registered nurses for in-home medical care.", tech: ["Next.js", "TypeScript", "PostgreSQL", "Zod"], link: "https://nabd-jawhar.vercel.app/" },
             { id: "project6", title: "Everest Company Site", description: "Corporate website showcasing services, courses, and programs for a media and advertising company.", tech: ["React", "Vite", "TypeScript"], link: "https://everest-sigma.vercel.app/" },
             { id: "project7", title: "Bashaib E-commerce", description: "E-commerce platform designed for selling motorcycles, spare parts, and accessories.", tech: ["HTML", "CSS", "JavaScript"], link: "https://bashaib-ecommerce.vercel.app/" },
+            { id: "project5", title: "Organization Developer Batch", description: "Documentation website for the MIS student cohort, featuring student profiles and project showcases.", tech: ["React", "Vite", "TypeScript"], link: "https://od10-mis.vercel.app/" },
             { id: "project8", title: "Fioncah E-commerce", description: "Online store specializing in women’s accessories, clothing, and perfumes.", tech: ["React", "Vite", "TypeScript"], link: "https://fioncah-ecommerce.vercel.app/" },
+            { id: "project1", title: "Aduai (Graduation Project)", description: "An integrated educational platform powered by 40+ AI tools for academic research and student assistance.", tech: ["Next.js", "TypeScript", "Firebase", "AI"], link: "https://aduai.vercel.app/" },
             { id: "project9", title: "Sakina Islamic Site", description: "Integrated Islamic platform featuring Quran recitation, Prophets' stories, Du'as, and religious inquiries.", tech: ["React", "TypeScript", "Vite"], link: "https://sakina-islam.vercel.app/" },
+            { id: "project4", title: "Saqia Charity", description: "Charitable donation platform for mosques, integrating local payment processors for direct contributions.", tech: ["React", "Vite", "TypeScript"], link: "https://saqia-charity-app.vercel.app/" },
             { id: "project10", title: "Omqi Mobile App (UI/UX)", description: "Mobile application UI design focused on enhancing user experience for financial service transactions.", tech: ["Figma", "React", "Vite"], link: "https://omqi-mobile-app.vercel.app/" },
+            { id: "project_portfolio", title: "Mahmoud Al-Hasani Portfolio", description: "My personal portfolio website showcasing my projects, skills, and experience.", tech: ["Next.js", "TypeScript", "Tailwind CSS"], link: "https://protofilo.mahmoud.vecel.app/" },
+            { id: "project_wethaqq", title: "Wethaqq", description: "A platform for documenting and verifying information, built with a modern tech stack.", tech: ["Next.js", "TypeScript", "Tailwind CSS"], link: "https://protofilo.mahmoud.vecel.app/" },
         ]
     },
     education: {
@@ -370,18 +370,18 @@ export const siteData = {
         title: "أبرز المشاريع التقنية",
         linkText: "عرض مباشر",
         list: [
-            { id: "project_portfolio", title: "ملف محمود الحسني الشخصي", description: "موقعي الشخصي الذي يعرض مشاريعي ومهاراتي وخبراتي.", tech: ["Next.js", "TypeScript", "Tailwind CSS"], link: "https://protofilo.mahmoud.vecel.app/" },
-            { id: "project_wethaqq", title: "وثّق", description: "منصة لتوثيق والتحقق من المعلومات، تم بناؤها باستخدام تقنيات حديثة.", tech: ["Next.js", "TypeScript", "Tailwind CSS"], link: "https://protofilo.mahmoud.vecel.app/" },
-            { id: "project1", title: "أدعية (مشروع تخرج)", description: "منصة تعليمية متكاملة مدعومة بأكثر من 40 أداة ذكاء اصطناعي للبحث الأكاديمي ومساعدة الطلاب.", tech: ["Next.js", "TypeScript", "Firebase", "AI"], link: "https://aduai.vercel.app/" },
-            { id: "project2", title: "نبض جوهر", description: "منصة خدمات رعاية صحية منزلية تربط المرضى بممرضين مسجلين للرعاية الطبية في المنزل.", tech: ["Next.js", "TypeScript", "PostgreSQL", "Zod"], link: "https://nabd-jawhar.vercel.app/" },
             { id: "project3", title: "موقع معهد أبعاد", description: "منصة شاملة لتسجيل الدورات، ملفات المدربين، مبيعات الكتب، ومعلومات المعهد.", tech: ["PHP", "MySQL", "Bootstrap"], link: "https://abaad-institute.vercel.app/" },
-            { id: "project4", title: "جمعية سقيا الخيرية", description: "منصة تبرعات خيرية للمساجد، مع دمج معالجات دفع محلية للتبرعات المباشرة.", tech: ["React", "Vite", "TypeScript"], link: "https://saqia-charity-app.vercel.app/" },
-            { id: "project5", title: "دفعة مطور المنظمات", description: "موقع توثيقي لدفعة طلاب نظم المعلومات الإدارية، يضم ملفات الطلاب وعروض المشاريع.", tech: ["React", "Vite", "TypeScript"], link: "https://od10-mis.vercel.app/" },
+            { id: "project2", title: "نبض جوهر", description: "منصة خدمات رعاية صحية منزلية تربط المرضى بممرضين مسجلين للرعاية الطبية في المنزل.", tech: ["Next.js", "TypeScript", "PostgreSQL", "Zod"], link: "https://nabd-jawhar.vercel.app/" },
             { id: "project6", title: "موقع شركة إيفرست", description: "موقع إلكتروني يعرض الخدمات والدورات والبرامج لشركة إعلام وإعلان.", tech: ["React", "Vite", "TypeScript"], link: "https://everest-sigma.vercel.app/" },
             { id: "project7", title: "باشعيب للتجارة الإلكترونية", description: "منصة تجارة إلكترونية مصممة لبيع الدراجات النارية وقطع الغيار والإكسسوارات.", tech: ["HTML", "CSS", "JavaScript"], link: "https://bashaib-ecommerce.vercel.app/" },
+            { id: "project5", title: "دفعة مطور المنظمات", description: "موقع توثيقي لدفعة طلاب نظم المعلومات الإدارية، يضم ملفات الطلاب وعروض المشاريع.", tech: ["React", "Vite", "TypeScript"], link: "https://od10-mis.vercel.app/" },
             { id: "project8", title: "فيونكة للتجارة الإلكترونية", description: "متجر إلكتروني متخصص في إكسسوارات النساء والملابس والعطور.", tech: ["React", "Vite", "TypeScript"], link: "https://fioncah-ecommerce.vercel.app/" },
+            { id: "project1", title: "أدعية (مشروع تخرج)", description: "منصة تعليمية متكاملة مدعومة بأكثر من 40 أداة ذكاء اصطناعي للبحث الأكاديمي ومساعدة الطلاب.", tech: ["Next.js", "TypeScript", "Firebase", "AI"], link: "https://aduai.vercel.app/" },
             { id: "project9", title: "موقع سكينة الإسلامي", description: "منصة إسلامية متكاملة تضم تلاوة القرآن، قصص الأنبياء، أدعية، واستفسارات دينية.", tech: ["React", "TypeScript", "Vite"], link: "https://sakina-islam.vercel.app/" },
+            { id: "project4", title: "جمعية سقيا الخيرية", description: "منصة تبرعات خيرية للمساجد، مع دمج معالجات دفع محلية للتبرعات المباشرة.", tech: ["React", "Vite", "TypeScript"], link: "https://saqia-charity-app.vercel.app/" },
             { id: "project10", title: "تطبيق الجوال عمقي (UI/UX)", description: "تصميم واجهة مستخدم لتطبيق جوال يركز على تحسين تجربة المستخدم للمعاملات المالية.", tech: ["Figma", "React", "Vite"], link: "https://omqi-mobile-app.vercel.app/" },
+            { id: "project_portfolio", title: "ملف محمود الحسني الشخصي", description: "موقعي الشخصي الذي يعرض مشاريعي ومهاراتي وخبراتي.", tech: ["Next.js", "TypeScript", "Tailwind CSS"], link: "https://protofilo.mahmoud.vecel.app/" },
+            { id: "project_wethaqq", title: "وثّق", description: "منصة لتوثيق والتحقق من المعلومات، تم بناؤها باستخدام تقنيات حديثة.", tech: ["Next.js", "TypeScript", "Tailwind CSS"], link: "https://protofilo.mahmoud.vecel.app/" },
         ]
     },
     education: {
@@ -515,5 +515,6 @@ export const siteData = {
     
 
     
+
 
 
