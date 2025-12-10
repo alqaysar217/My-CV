@@ -15,7 +15,7 @@ export const siteData = {
     ],
     hero: {
       initials: 'M . H',
-      name: 'MAHMOUD OMAR ALI HASSANI',
+      name: 'MAHMOUD OMAR HASSANI',
       subtitle: 'Management Information Systems Graduate | Full Stack Web Developer',
       caption: "Ambitious and practical MIS graduate with a strong foundation in Full Stack Development and AI. Proven track record of building 10+ deployed applications. Experienced in technical training and leadership.",
       cta: {
@@ -25,7 +25,7 @@ export const siteData = {
     },
     about: {
       title: 'About Me',
-      imageAlt: 'Photo of Mahmoud Omar Ali Hassani',
+      imageAlt: 'Photo of Mahmoud Omar Hassani',
       bio: "Ambitious and practical Management Information Systems (MIS) graduate (2025) with a strong foundation in Full Stack Web Development and AI integration. Proven track record of building 10+ deployed web applications and platforms. Experienced in technical training and leadership, having instructed students in programming languages (Python, C#, SQL). Seeking to leverage strong technical skills, strategic planning abilities, and passion for continuous learning in a challenging IT or Software Development role.",
       roles: [
         { icon: 'grad', title: 'MIS Graduate', desc: 'Bachelor\'s in Management Information Systems.' },
@@ -216,7 +216,7 @@ export const siteData = {
         }
     },
     footer: {
-        copyright: "Mahmoud Omar Ali Hassani. All rights reserved."
+        copyright: "Mahmoud Omar Hassani. All rights reserved."
     },
     socialLinks: [
       { name: "GitHub", icon: "github", url: "https://github.com/alqaysar217" },
@@ -240,7 +240,7 @@ export const siteData = {
     ],
     hero: {
       initials: 'م . ح',
-      name: 'محمود عمر علي حسني',
+      name: 'محمود عمر حسني',
       subtitle: 'خريج نظم معلومات إدارية | مطور ويب متكامل',
       caption: 'خريج نظم معلومات إدارية طموح وعملي ولدي أساس قوي في تطوير الويب المتكامل والذكاء الاصطناعي. سجل حافل ببناء أكثر من 10 تطبيقات منشورة. لدي خبرة في التدريب الفني والقيادة.',
       cta: {
@@ -250,7 +250,7 @@ export const siteData = {
     },
     about: {
       title: 'عني',
-      imageAlt: 'صورة محمود عمر علي حسني',
+      imageAlt: 'صورة محمود عمر حسني',
       bio: 'خريج نظم معلومات إدارية (2025) طموح وعملي، ولدي أساس قوي في تطوير الويب المتكامل وتكامل الذكاء الاصطناعي. سجل حافل ببناء أكثر من 10 تطبيقات ومنصات ويب تم نشرها. لدي خبرة في التدريب الفني والقيادة، حيث قمت بتدريب الطلاب على لغات البرمجة (Python، C#، SQL). أسعى إلى الاستفادة من المهارات التقنية القوية، وقدرات التخطيط الاستراتيجي، والشغف بالتعلم المستمر في دور مليء بالتحديات في مجال تكنولوجيا المعلومات أو تطوير البرمجيات.',
       roles: [
         { icon: 'grad', title: 'خريج نظم معلومات إدارية', desc: 'بكالوريوس في نظم المعلومات الإدارية.' },
@@ -441,7 +441,7 @@ export const siteData = {
         }
     },
     footer: {
-        copyright: "محمود عمر علي حسني. جميع الحقوق محفوظة."
+        copyright: "محمود عمر حسني. جميع الحقوق محفوظة."
     },
     socialLinks: [
       { name: "GitHub", icon: "github", url: "https://github.com/alqaysar217" },
@@ -451,6 +451,8 @@ export const siteData = {
     ],
   },
 };
+
+    
 
     
 
