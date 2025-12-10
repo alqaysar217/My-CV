@@ -1,3 +1,4 @@
+
 "use client";
 
 import { useState, useEffect } from "react";
@@ -21,14 +22,17 @@ const Header = () => {
   const navItems = siteData[language].nav;
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isMounted, setIsMounted] = useState(false);
 
   useEffect(() => {
+    setIsMounted(true);
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
     };
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
 
   return (
     <>
@@ -60,29 +64,31 @@ const Header = () => {
             ))}
           </div>
           <div className="md:hidden">
-            <Sheet open={isMobileMenuOpen} onOpenChange={setIsMobileMenuOpen}>
-              <SheetTrigger asChild>
-                <Button variant="ghost" size="icon">
-                  <Menu className="h-6 w-6" />
-                  <span className="sr-only">Open Menu</span>
-                </Button>
-              </SheetTrigger>
-              <SheetContent side={direction === 'rtl' ? 'left' : 'right'}>
-                <SheetTitle className="sr-only">Mobile Navigation</SheetTitle>
-                <div className="flex flex-col gap-6 pt-10">
-                  {navItems.map((item) => (
-                    <SheetClose key={item.name} asChild>
+            {isMounted && (
+              <Sheet open={isMobileMenuOpen} onOpenChange={setIsMobileMenuOpen}>
+                <SheetTrigger asChild>
+                  <Button variant="ghost" size="icon">
+                    <Menu className="h-6 w-6" />
+                    <span className="sr-only">Open Menu</span>
+                  </Button>
+                </SheetTrigger>
+                <SheetContent side={direction === 'rtl' ? 'left' : 'right'}>
+                  <SheetTitle className="sr-only">Mobile Navigation</SheetTitle>
+                  <div className="flex flex-col gap-6 pt-10">
+                    {navItems.map((item) => (
+                      <SheetClose key={item.name} asChild>
                        <Link
                         href={item.href}
                         className="text-lg font-medium text-foreground transition-colors hover:text-accent"
                       >
                         {item.name}
                       </Link>
-                    </SheetClose>
-                  ))}
-                </div>
-              </SheetContent>
-            </Sheet>
+                      </SheetClose>
+                    ))}
+                  </div>
+                </SheetContent>
+              </Sheet>
+            )}
           </div>
         </nav>
       </header>
