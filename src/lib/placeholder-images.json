@@ -51,7 +51,7 @@
     {
       "id": "project8",
       "description": "Screenshot of Fioncah E-commerce project",
-      "imageUrl": "https://images.unsplash.com/photo-1598554747443-a602ace982d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3b21lbiUyMGFjY2Vzc29yaWVzJTIwc3RvcmV8ZW58MHx8fHwxNzY1NTU5MjUwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1598554747443-a602ace982d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3b21lbiUyMGFjY2Vzc29yaWVzJTIwc3RvcmV8ZW58MHx8fHwxNzY1NTU5MjUwfDA&ixlibrb-4.1.0&q=80&w=1080",
       "imageHint": "women accessories"
     },
     {
@@ -63,85 +63,205 @@
     {
       "id": "project10",
       "description": "Screenshot of Omqi Mobile App project",
-      "imageUrl": "https://images.unsplash.com/photo-1616469829935-c2f334a06573?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmaW5hbmNlJTIwbW9iaWxlJTIwYXBwJTIwdWl8ZW58MHx8fHwxNzY1NTU5MzI0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1616469829935-c2f334a06573?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmaW5hbmNlJTIwbW9iaWxlJTIwYXBwJTIwdWl8ZW58MHx8fHwxNzY1NTU5MzI0fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "finance mobile"
     },
     {
-      "id": "cert_ai1",
+      "id": "cert_ai_1",
       "description": "Certificate for Elements of AI",
-      "imageUrl": "https://images.unsplash.com/photo-1559588501-59a118c47e59?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NTM3NjU0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1616861771635-49063a4636ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NTM3NjU0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "certificate document"
     },
     {
-      "id": "cert_ai2",
-      "description": "Certificate for AI for Everyone",
+      "id": "cert_ai_2",
+      "description": "Certificate for AI for Everyone (AI4E)",
+      "imageUrl": "https://images.unsplash.com/photo-1662787913261-7802f9b145bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NTM3NjU0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "certificate document"
+    },
+    {
+      "id": "cert_ai_3",
+      "description": "Certificate for One Million Prompters Initiative",
+      "imageUrl": "https://images.unsplash.com/photo-1575328504446-0ecdf62b0007?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NTM3NjU0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "certificate document"
+    },
+    {
+      "id": "cert_ai_4",
+      "description": "Certificate for Git up with Git and Github",
+      "imageUrl": "https://images.unsplash.com/photo-1662787913261-7802f9b145bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NTM3NjU0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "certificate document"
+    },
+    {
+      "id": "cert_dev_1",
+      "description": "Certificate for Introduction to C++",
       "imageUrl": "https://images.unsplash.com/photo-1503252947848-7338d3f92f31?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NTM3NjU0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "certificate document"
     },
     {
-      "id": "cert_ai3",
-      "description": "Certificate for Prompt Engineering",
-      "imageUrl": "https://images.unsplash.com/photo-1589330694653-ded6df03f754?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NTM3NjU0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "id": "cert_dev_2",
+      "description": "Certificate for Full HTML in Arabic",
+      "imageUrl": "https://images.unsplash.com/photo-1637763723578-79a4ca9225f7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NTM3NjU0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "certificate document"
     },
     {
-      "id": "cert_ai4",
+      "id": "cert_dev_3",
+      "description": "Certificate for Digital Transformation & Tech Future",
+      "imageUrl": "https://images.unsplash.com/photo-1637763723578-79a4ca9225f7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NTM3NjU0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "certificate document"
+    },
+    {
+      "id": "cert_cyber_1",
+      "description": "Certificate for Malware Analysis Fundamentals",
+      "imageUrl": "https://images.unsplash.com/photo-1620732077694-073ac37f6015?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y2VydGlmaWNhdGUlMjBkb2N1bWVudHxlbnwwfHx8fDE3NjUzNzY1NDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "certificate document"
+    },
+    {
+      "id": "cert_cyber_2",
+      "description": "Certificate for Cybersecurity Awareness",
+      "imageUrl": "https://images.unsplash.com/photo-1616861771635-49063a4636ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NTM3NjU0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "certificate document"
+    },
+    {
+      "id": "cert_cyber_3",
+      "description": "Certificate for Introduction to Networks",
+      "imageUrl": "https://images.unsplash.com/photo-1503252947848-7338d3f92f31?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NTM3NjU0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "certificate document"
+    },
+    {
+      "id": "cert_cyber_4",
+      "description": "Certificate for Cybercrime",
+      "imageUrl": "https://images.unsplash.com/photo-1701602681424-b6c68bde3508?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NTM3NjU0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "certificate document"
+    },
+    {
+      "id": "cert_admin_1",
+      "description": "Certificate for Career Essentials in System Administration",
+      "imageUrl": "https://images.unsplash.com/photo-1620732077694-073ac37f6015?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y2VydGlmaWNhdGUlMjBkb2N1bWVudHxlbnwwfHx8fDE3NjUzNzY1NDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "certificate document"
+    },
+    {
+      "id": "cert_admin_2",
+      "description": "Certificate for ICDL Base",
+      "imageUrl": "https://images.unsplash.com/photo-1662787913261-7802f9b145bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NTM3NjU0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "certificate document"
+    },
+    {
+      "id": "cert_admin_3",
+      "description": "Certificate for Computer Essentials (ICDL Component)",
+      "imageUrl": "https://images.unsplash.com/photo-1616861771635-49063a4636ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NTM3NjU0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "certificate document"
+    },
+    {
+      "id": "cert_admin_4",
+      "description": "Certificate for Microsoft Advanced Excel Quiz",
+      "imageUrl": "https://images.unsplash.com/photo-1616861771635-49063a4636ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NTM3NjU0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "certificate document"
+    },
+    {
+      "id": "cert_admin_5",
+      "description": "Certificate for Google Admin Console - Level 1",
+      "imageUrl": "https://images.unsplash.com/photo-1616861771635-49063a4636ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NTM3NjU0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "certificate document"
+    },
+    {
+      "id": "cert_admin_6",
+      "description": "Certificate for Google Drive Intro (Level 1)",
+      "imageUrl": "https://images.unsplash.com/photo-1637763723578-79a4ca9225f7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NTM3NjU0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "certificate document"
+    },
+    {
+      "id": "cert_admin_7",
+      "description": "Certificate for Google Sites Intro (Level 1)",
+      "imageUrl": "https://images.unsplash.com/photo-1620732077694-073ac37f6015?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y2VydGlmaWNhdGUlMjBkb2N1bWVudHxlbnwwfHx8fDE3NjUzNzY1NDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "certificate document"
+    },
+    {
+      "id": "cert_admin_8",
+      "description": "Certificate for PowerPoint 2013 Skills",
+      "imageUrl": "https://images.unsplash.com/photo-1761671613933-159512988cb3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NTM3NjU0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "certificate document"
+    },
+    {
+      "id": "cert_biz_1",
       "description": "Certificate for Business Analytics with Excel",
       "imageUrl": "https://images.unsplash.com/photo-1761671613933-159512988cb3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NTM3NjU0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "certificate document"
     },
     {
-      "id": "cert_cyber1",
-      "description": "Certificate for Career Essentials in System Administration",
-      "imageUrl": "https://images.unsplash.com/photo-1616861771635-49063a4636ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NTM3NjU0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "certificate document"
-    },
-    {
-      "id": "cert_cyber2",
-      "description": "Certificate for Malware Analysis Fundamentals",
-      "imageUrl": "https://images.unsplash.com/photo-1559588501-59a118c47e59?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NTM3NjU0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "certificate document"
-    },
-    {
-      "id": "cert_cyber3",
-      "description": "Certificate for Intro to Networks",
-      "imageUrl": "https://images.unsplash.com/photo-1503252947848-7338d3f92f31?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NTM3NjU0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "certificate document"
-    },
-    {
-      "id": "cert_dev1",
-      "description": "Certificate for Git & GitHub",
-      "imageUrl": "https://images.unsplash.com/photo-1589330694653-ded6df03f754?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NTM3NjU0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "certificate document"
-    },
-    {
-      "id": "cert_dev2",
-      "description": "Certificate for Intro to C++",
+      "id": "cert_biz_2",
+      "description": "Certificate for Digital Marketing Fundamentals",
       "imageUrl": "https://images.unsplash.com/photo-1761671613933-159512988cb3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NTM3NjU0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "certificate document"
     },
     {
-      "id": "cert_dev3",
-      "description": "Certificate for Full HTML for Beginners",
-      "imageUrl": "https://images.unsplash.com/photo-1616861771635-49063a4636ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NTM3NjU0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "id": "cert_biz_3",
+      "description": "Certificate for Principles of Business",
+      "imageUrl": "https://images.unsplash.com/photo-1701602681424-b6c68bde3508?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NTM3NjU0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "certificate document"
     },
     {
-      "id": "cert_biz1",
-      "description": "Certificate for Fundamentals of Digital Marketing",
-      "imageUrl": "https://images.unsplash.com/photo-1559588501-59a118c47e59?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NTM3NjU0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "id": "cert_biz_4",
+      "description": "Certificate for Business Model Basics",
+      "imageUrl": "https://images.unsplash.com/photo-1575328504446-0ecdf62b0007?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NTM3NjU0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "certificate document"
     },
     {
-      "id": "cert_biz2",
-      "description": "Certificate for Strategic Planning",
+      "id": "cert_biz_5",
+      "description": "Certificate for Design Thinking",
+      "imageUrl": "https://images.unsplash.com/photo-1662787913261-7802f9b145bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NTM3NjU0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "certificate document"
+    },
+    {
+      "id": "cert_biz_6",
+      "description": "Certificate for Online Selling",
+      "imageUrl": "https://images.unsplash.com/photo-1701602681424-b6c68bde3508?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NTM3NjU0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "certificate document"
+    },
+    {
+      "id": "cert_biz_7",
+      "description": "Certificate for Work Efficiency",
       "imageUrl": "https://images.unsplash.com/photo-1503252947848-7338d3f92f31?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NTM3NjU0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "certificate document"
     },
     {
-      "id": "cert_biz3",
-      "description": "Certificate for Business Model Canvas",
+      "id": "cert_biz_8",
+      "description": "Certificate for SDG Strategy",
+      "imageUrl": "https://images.unsplash.com/photo-1620732077694-073ac37f6015?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y2VydGlmaWNhdGUlMjBkb2N1bWVudHxlbnwwfHx8fDE3NjUzNzY1NDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "certificate document"
+    },
+    {
+      "id": "cert_other_1",
+      "description": "Certificate for Smart Cities",
+      "imageUrl": "https://images.unsplash.com/photo-1637763723578-79a4ca9225f7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NTM3NjU0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "certificate document"
+    },
+    {
+      "id": "cert_other_2",
+      "description": "Certificate for Effective Websites",
       "imageUrl": "https://images.unsplash.com/photo-1589330694653-ded6df03f754?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NTM3NjU0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "certificate document"
+    },
+    {
+      "id": "cert_other_3",
+      "description": "Certificate for Strategic Planning",
+      "imageUrl": "https://images.unsplash.com/photo-1620732077694-073ac37f6015?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y2VydGlmaWNhdGUlMjBkb2N1bWVudHxlbnwwfHx8fDE3NjUzNzY1NDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "certificate document"
+    },
+    {
+      "id": "cert_other_4",
+      "description": "Certificate for Adobe Photoshop",
+      "imageUrl": "https://images.unsplash.com/photo-1662787913261-7802f9b145bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NTM3NjU0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "certificate document"
+    },
+    {
+      "id": "cert_other_5",
+      "description": "Certificate for Stress Control",
+      "imageUrl": "https://images.unsplash.com/photo-1589330694653-ded6df03f754?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NTM3NjU0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "certificate document"
+    },
+    {
+      "id": "cert_other_6",
+      "description": "Certificate for Go.Data",
+      "imageUrl": "https://images.unsplash.com/photo-1701602681424-b6c68bde3508?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjZXJ0aWZpY2F0ZSUyMGRvY3VtZW50fGVufDB8fHx8MTc2NTM3NjU0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "certificate document"
     },
     {
@@ -183,7 +303,7 @@
     {
       "id": "gallery3",
       "description": "Photo from a training session",
-      "imageUrl": "https://images.unsplash.com/photo-1580893207371-9ae163385856?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb2RpbmclMjB3b3Jrc2hvcHxlbnwwfHx8fDE3NjUyNzYzNDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1580893207371-9ae163385856?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb2RpbmclMjB3b3Jrc2hvcHxlbnwwfHx8fDE3NjUyNzYzNDF8MA&ixlibrb-4.1.0&q=80&w=1080",
       "imageHint": "coding workshop"
     },
     {
@@ -237,7 +357,7 @@
     {
       "id": "course_misc",
       "description": "Thumbnail for miscellaneous tutorials",
-      "imageUrl": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0ZWNoJTIwdHV0b3JpYWx8ZW58MHx8fHwxNzY1MzkxMzU2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0ZWNoJTIwdHV0b3JpYWx8ZW58MHx8fHwxNzY1MzkxMzU2fDA&ixlibrb-4.1.0&q=80&w=1080",
       "imageHint": "tech tutorial"
     },
     {

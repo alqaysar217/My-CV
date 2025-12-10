@@ -44,10 +44,12 @@ const CertificatesSection = () => {
   const categories = [allCategoryName, ...uniqueCategories];
   
   const arabicCategories = {
-    "AI & Data": "الذكاء الاصطناعي والبيانات",
-    "Cybersecurity & IT": "الأمن السيبراني وتقنية المعلومات",
-    "Development": "التطوير",
-    "Business & Marketing": "الأعمال والتسويق"
+    "AI & Machine Learning": "الذكاء الاصطناعي وتعلم الآلة",
+    "Programming & Web Development": "البرمجة وتطوير الويب",
+    "Cybersecurity & Networking": "الأمن السيبراني والشبكات",
+    "System Administration & Office Tools": "إدارة النظم وأدوات المكتب",
+    "Business, Analytics & Digital Skills": "الأعمال والتحليلات والمهارات الرقمية",
+    "Other Skills & Personal Development": "مهارات أخرى وتطوير ذاتي"
   } as { [key: string]: string };
 
   const getCategoryName = (category: string) => {
@@ -62,7 +64,7 @@ const CertificatesSection = () => {
     <section id="certificates" className="container mx-auto py-20 md:py-32 px-4">
       <SectionTitle>{data.title}</SectionTitle>
         <Tabs defaultValue={allCategoryName} className="w-full" dir={direction}>
-            <TabsList className="grid w-full max-w-4xl mx-auto grid-cols-2 md:grid-cols-3 lg:grid-cols-5 mb-10 bg-card/80 backdrop-blur-sm h-auto flex-wrap">
+            <TabsList className="grid w-full max-w-full mx-auto grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 mb-10 bg-card/80 backdrop-blur-sm h-auto flex-wrap">
                 {categories.map(category => (
                     <TabsTrigger key={category} value={category} className="flex-1 min-w-max">{getCategoryName(category)}</TabsTrigger>
                 ))}
