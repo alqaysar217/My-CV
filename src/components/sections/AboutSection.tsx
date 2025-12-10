@@ -35,7 +35,7 @@ const AboutSection = () => {
 
   return (
     <section id="about" className="relative container mx-auto py-20 md:py-32 px-4 overflow-hidden">
-      <FloatingShapes />
+      <FloatingShapes shapeCount={30} spread={40} />
       <SectionTitle>{data.title}</SectionTitle>
       <GlowCard>
         <div className="grid md:grid-cols-3 gap-8 md:gap-12 items-center">

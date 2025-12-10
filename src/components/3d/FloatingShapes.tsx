@@ -5,9 +5,10 @@ import * as THREE from 'three';
 
 interface FloatingShapesProps {
   shapeCount?: number;
+  spread?: number;
 }
 
-const FloatingShapes = ({ shapeCount = 15 }: FloatingShapesProps) => {
+const FloatingShapes = ({ shapeCount = 25, spread = 30 }: FloatingShapesProps) => {
   const mountRef = useRef<HTMLDivElement>(null);
 
   const shapes = useMemo(() => {
@@ -32,9 +33,9 @@ const FloatingShapes = ({ shapeCount = 15 }: FloatingShapesProps) => {
       const material = materials[Math.floor(Math.random() * materials.length)];
       const shape = new THREE.Mesh(geometry, material);
 
-      shape.position.x = (Math.random() - 0.5) * 25;
-      shape.position.y = (Math.random() - 0.5) * 25;
-      shape.position.z = (Math.random() - 0.5) * 25;
+      shape.position.x = (Math.random() - 0.5) * spread;
+      shape.position.y = (Math.random() - 0.5) * spread;
+      shape.position.z = (Math.random() - 0.5) * spread;
 
       shape.rotation.x = Math.random() * Math.PI;
       shape.rotation.y = Math.random() * Math.PI;
@@ -49,7 +50,7 @@ const FloatingShapes = ({ shapeCount = 15 }: FloatingShapesProps) => {
       shapeArray.push(shape);
     }
     return shapeArray;
-  }, [shapeCount]);
+  }, [shapeCount, spread]);
 
   useEffect(() => {
     if (!mountRef.current) return;
